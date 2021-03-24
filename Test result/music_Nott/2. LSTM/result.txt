@@ -1,0 +1,890 @@
+Namespace(clip=0.2, cuda=True, data='Nott', dropout=0.25, epochs=100, ksize=5, levels=4, log_interval=100, lr=0.001, nhid=150, optim='Adam', seed=1111)
+loading Nott data...
+Epoch  1 | lr 0.00100 | loss 22.29867
+Epoch  1 | lr 0.00100 | loss 10.68543
+Epoch  1 | lr 0.00100 | loss 10.26043
+Epoch  1 | lr 0.00100 | loss 9.44425
+Epoch  1 | lr 0.00100 | loss 9.97399
+Epoch  1 | lr 0.00100 | loss 10.15946
+Validation loss: 7.97100
+Test loss: 8.23456
+Saved model!
+
+Epoch  2 | lr 0.00100 | loss 7.97527
+Epoch  2 | lr 0.00100 | loss 7.08391
+Epoch  2 | lr 0.00100 | loss 6.82160
+Epoch  2 | lr 0.00100 | loss 6.44015
+Epoch  2 | lr 0.00100 | loss 6.57063
+Epoch  2 | lr 0.00100 | loss 6.05095
+Validation loss: 6.41144
+Test loss: 6.64749
+Saved model!
+
+Epoch  3 | lr 0.00100 | loss 6.39534
+Epoch  3 | lr 0.00100 | loss 6.32271
+Epoch  3 | lr 0.00100 | loss 6.33257
+Epoch  3 | lr 0.00100 | loss 6.40999
+Epoch  3 | lr 0.00100 | loss 6.16422
+Epoch  3 | lr 0.00100 | loss 5.69702
+Validation loss: 5.78932
+Test loss: 5.96005
+Saved model!
+
+Epoch  4 | lr 0.00100 | loss 5.25527
+Epoch  4 | lr 0.00100 | loss 5.63386
+Epoch  4 | lr 0.00100 | loss 5.69717
+Epoch  4 | lr 0.00100 | loss 5.49038
+Epoch  4 | lr 0.00100 | loss 5.49708
+Epoch  4 | lr 0.00100 | loss 5.28095
+Validation loss: 5.23296
+Test loss: 5.33355
+Saved model!
+
+Epoch  5 | lr 0.00100 | loss 5.09472
+Epoch  5 | lr 0.00100 | loss 5.07462
+Epoch  5 | lr 0.00100 | loss 4.87954
+Epoch  5 | lr 0.00100 | loss 3.35148
+Epoch  5 | lr 0.00100 | loss 4.98641
+Epoch  5 | lr 0.00100 | loss 5.40406
+Validation loss: 4.94639
+Test loss: 5.00426
+Saved model!
+
+Epoch  6 | lr 0.00100 | loss 4.91643
+Epoch  6 | lr 0.00100 | loss 4.78884
+Epoch  6 | lr 0.00100 | loss 4.88719
+Epoch  6 | lr 0.00100 | loss 4.56420
+Epoch  6 | lr 0.00100 | loss 4.67421
+Epoch  6 | lr 0.00100 | loss 4.80581
+Validation loss: 4.78026
+Test loss: 4.82743
+Saved model!
+
+Epoch  7 | lr 0.00100 | loss 4.81043
+Epoch  7 | lr 0.00100 | loss 4.12719
+Epoch  7 | lr 0.00100 | loss 4.77584
+Epoch  7 | lr 0.00100 | loss 4.61359
+Epoch  7 | lr 0.00100 | loss 4.73271
+Epoch  7 | lr 0.00100 | loss 4.65233
+Validation loss: 4.64446
+Test loss: 4.68756
+Saved model!
+
+Epoch  8 | lr 0.00100 | loss 4.62672
+Epoch  8 | lr 0.00100 | loss 4.77271
+Epoch  8 | lr 0.00100 | loss 4.57712
+Epoch  8 | lr 0.00100 | loss 4.29907
+Epoch  8 | lr 0.00100 | loss 4.72814
+Epoch  8 | lr 0.00100 | loss 4.47955
+Validation loss: 4.56477
+Test loss: 4.57527
+Saved model!
+
+Epoch  9 | lr 0.00100 | loss 4.48721
+Epoch  9 | lr 0.00100 | loss 4.51951
+Epoch  9 | lr 0.00100 | loss 4.48899
+Epoch  9 | lr 0.00100 | loss 4.48515
+Epoch  9 | lr 0.00100 | loss 4.40969
+Epoch  9 | lr 0.00100 | loss 4.57826
+Validation loss: 4.46625
+Test loss: 4.48418
+Saved model!
+
+Epoch 10 | lr 0.00100 | loss 4.87098
+Epoch 10 | lr 0.00100 | loss 4.38937
+Epoch 10 | lr 0.00100 | loss 4.31850
+Epoch 10 | lr 0.00100 | loss 4.40873
+Epoch 10 | lr 0.00100 | loss 4.45952
+Epoch 10 | lr 0.00100 | loss 4.48157
+Validation loss: 4.41000
+Test loss: 4.42808
+Saved model!
+
+Epoch 11 | lr 0.00100 | loss 4.05851
+Epoch 11 | lr 0.00100 | loss 4.35854
+Epoch 11 | lr 0.00100 | loss 4.45609
+Epoch 11 | lr 0.00100 | loss 4.29308
+Epoch 11 | lr 0.00100 | loss 4.31023
+Epoch 11 | lr 0.00100 | loss 4.35283
+Validation loss: 4.37857
+Test loss: 4.37841
+Saved model!
+
+Epoch 12 | lr 0.00100 | loss 4.35373
+Epoch 12 | lr 0.00100 | loss 4.31817
+Epoch 12 | lr 0.00100 | loss 4.24194
+Epoch 12 | lr 0.00100 | loss 4.31897
+Epoch 12 | lr 0.00100 | loss 4.63203
+Epoch 12 | lr 0.00100 | loss 4.22266
+Validation loss: 4.32692
+Test loss: 4.33795
+Saved model!
+
+Epoch 13 | lr 0.00100 | loss 4.46267
+Epoch 13 | lr 0.00100 | loss 4.23887
+Epoch 13 | lr 0.00100 | loss 4.40406
+Epoch 13 | lr 0.00100 | loss 3.88254
+Epoch 13 | lr 0.00100 | loss 4.28483
+Epoch 13 | lr 0.00100 | loss 4.36911
+Validation loss: 4.27943
+Test loss: 4.28693
+Saved model!
+
+Epoch 14 | lr 0.00100 | loss 4.31706
+Epoch 14 | lr 0.00100 | loss 4.38297
+Epoch 14 | lr 0.00100 | loss 4.19165
+Epoch 14 | lr 0.00100 | loss 4.15295
+Epoch 14 | lr 0.00100 | loss 4.12306
+Epoch 14 | lr 0.00100 | loss 4.33553
+Validation loss: 4.26617
+Test loss: 4.26615
+Saved model!
+
+Epoch 15 | lr 0.00100 | loss 4.05823
+Epoch 15 | lr 0.00100 | loss 4.12518
+Epoch 15 | lr 0.00100 | loss 4.17374
+Epoch 15 | lr 0.00100 | loss 4.17688
+Epoch 15 | lr 0.00100 | loss 4.27644
+Epoch 15 | lr 0.00100 | loss 4.25873
+Validation loss: 4.22121
+Test loss: 4.22582
+Saved model!
+
+Epoch 16 | lr 0.00100 | loss 4.47146
+Epoch 16 | lr 0.00100 | loss 4.20865
+Epoch 16 | lr 0.00100 | loss 4.11140
+Epoch 16 | lr 0.00100 | loss 4.15503
+Epoch 16 | lr 0.00100 | loss 4.29328
+Epoch 16 | lr 0.00100 | loss 4.16858
+Validation loss: 4.21347
+Test loss: 4.21514
+Saved model!
+
+Epoch 17 | lr 0.00100 | loss 4.23851
+Epoch 17 | lr 0.00100 | loss 3.96278
+Epoch 17 | lr 0.00100 | loss 4.13368
+Epoch 17 | lr 0.00100 | loss 4.24787
+Epoch 17 | lr 0.00100 | loss 4.08081
+Epoch 17 | lr 0.00100 | loss 4.18504
+Validation loss: 4.19129
+Test loss: 4.19704
+Saved model!
+
+Epoch 18 | lr 0.00100 | loss 4.06867
+Epoch 18 | lr 0.00100 | loss 4.11161
+Epoch 18 | lr 0.00100 | loss 4.12764
+Epoch 18 | lr 0.00100 | loss 3.92241
+Epoch 18 | lr 0.00100 | loss 4.10772
+Epoch 18 | lr 0.00100 | loss 4.11061
+Validation loss: 4.15225
+Test loss: 4.15045
+Saved model!
+
+Epoch 19 | lr 0.00100 | loss 4.07764
+Epoch 19 | lr 0.00100 | loss 4.05541
+Epoch 19 | lr 0.00100 | loss 2.96207
+Epoch 19 | lr 0.00100 | loss 4.09243
+Epoch 19 | lr 0.00100 | loss 4.03497
+Epoch 19 | lr 0.00100 | loss 4.05044
+Validation loss: 4.11994
+Test loss: 4.11541
+Saved model!
+
+Epoch 20 | lr 0.00100 | loss 3.99008
+Epoch 20 | lr 0.00100 | loss 4.06519
+Epoch 20 | lr 0.00100 | loss 3.96165
+Epoch 20 | lr 0.00100 | loss 4.06640
+Epoch 20 | lr 0.00100 | loss 3.99433
+Epoch 20 | lr 0.00100 | loss 3.93382
+Validation loss: 4.05854
+Test loss: 4.03927
+Saved model!
+
+Epoch 21 | lr 0.00100 | loss 3.95979
+Epoch 21 | lr 0.00100 | loss 3.76802
+Epoch 21 | lr 0.00100 | loss 3.98408
+Epoch 21 | lr 0.00100 | loss 3.84755
+Epoch 21 | lr 0.00100 | loss 3.91834
+Epoch 21 | lr 0.00100 | loss 4.12005
+Validation loss: 4.03876
+Test loss: 4.02584
+Saved model!
+
+Epoch 22 | lr 0.00100 | loss 3.88667
+Epoch 22 | lr 0.00100 | loss 3.83760
+Epoch 22 | lr 0.00100 | loss 3.89856
+Epoch 22 | lr 0.00100 | loss 3.83866
+Epoch 22 | lr 0.00100 | loss 3.65958
+Epoch 22 | lr 0.00100 | loss 3.86241
+Validation loss: 3.96493
+Test loss: 3.94532
+Saved model!
+
+Epoch 23 | lr 0.00100 | loss 3.73845
+Epoch 23 | lr 0.00100 | loss 3.78617
+Epoch 23 | lr 0.00100 | loss 3.63145
+Epoch 23 | lr 0.00100 | loss 3.81479
+Epoch 23 | lr 0.00100 | loss 3.86837
+Epoch 23 | lr 0.00100 | loss 3.81316
+Validation loss: 3.93913
+Test loss: 3.91941
+Saved model!
+
+Epoch 24 | lr 0.00100 | loss 3.73416
+Epoch 24 | lr 0.00100 | loss 3.79277
+Epoch 24 | lr 0.00100 | loss 3.77622
+Epoch 24 | lr 0.00100 | loss 3.77306
+Epoch 24 | lr 0.00100 | loss 3.73032
+Epoch 24 | lr 0.00100 | loss 3.76116
+Validation loss: 3.88515
+Test loss: 3.87123
+Saved model!
+
+Epoch 25 | lr 0.00100 | loss 3.74846
+Epoch 25 | lr 0.00100 | loss 3.84479
+Epoch 25 | lr 0.00100 | loss 3.69272
+Epoch 25 | lr 0.00100 | loss 3.59700
+Epoch 25 | lr 0.00100 | loss 3.77366
+Epoch 25 | lr 0.00100 | loss 3.35467
+Validation loss: 3.87333
+Test loss: 3.87190
+Saved model!
+
+Epoch 26 | lr 0.00100 | loss 3.42117
+Epoch 26 | lr 0.00100 | loss 3.71727
+Epoch 26 | lr 0.00100 | loss 3.71215
+Epoch 26 | lr 0.00100 | loss 3.78061
+Epoch 26 | lr 0.00100 | loss 3.63211
+Epoch 26 | lr 0.00100 | loss 3.69887
+Validation loss: 3.82460
+Test loss: 3.80727
+Saved model!
+
+Epoch 27 | lr 0.00100 | loss 3.72102
+Epoch 27 | lr 0.00100 | loss 3.64128
+Epoch 27 | lr 0.00100 | loss 3.59016
+Epoch 27 | lr 0.00100 | loss 3.77823
+Epoch 27 | lr 0.00100 | loss 3.57311
+Epoch 27 | lr 0.00100 | loss 3.60109
+Validation loss: 3.78345
+Test loss: 3.79061
+Saved model!
+
+Epoch 28 | lr 0.00100 | loss 2.77518
+Epoch 28 | lr 0.00100 | loss 3.58777
+Epoch 28 | lr 0.00100 | loss 3.73118
+Epoch 28 | lr 0.00100 | loss 3.59505
+Epoch 28 | lr 0.00100 | loss 3.64757
+Epoch 28 | lr 0.00100 | loss 3.63117
+Validation loss: 3.81787
+Test loss: 3.81217
+Epoch 29 | lr 0.00100 | loss 3.45632
+Epoch 29 | lr 0.00100 | loss 3.46273
+Epoch 29 | lr 0.00100 | loss 3.44204
+Epoch 29 | lr 0.00100 | loss 3.63348
+Epoch 29 | lr 0.00100 | loss 3.63939
+Epoch 29 | lr 0.00100 | loss 3.65353
+Validation loss: 3.72916
+Test loss: 3.74472
+Saved model!
+
+Epoch 30 | lr 0.00100 | loss 3.53145
+Epoch 30 | lr 0.00100 | loss 2.89404
+Epoch 30 | lr 0.00100 | loss 3.53190
+Epoch 30 | lr 0.00100 | loss 3.52862
+Epoch 30 | lr 0.00100 | loss 3.54512
+Epoch 30 | lr 0.00100 | loss 3.54116
+Validation loss: 3.72603
+Test loss: 3.72756
+Saved model!
+
+Epoch 31 | lr 0.00100 | loss 3.47197
+Epoch 31 | lr 0.00100 | loss 3.49823
+Epoch 31 | lr 0.00100 | loss 3.60525
+Epoch 31 | lr 0.00100 | loss 3.28744
+Epoch 31 | lr 0.00100 | loss 3.45993
+Epoch 31 | lr 0.00100 | loss 3.50247
+Validation loss: 3.71466
+Test loss: 3.72407
+Saved model!
+
+Epoch 32 | lr 0.00100 | loss 3.47325
+Epoch 32 | lr 0.00100 | loss 3.47177
+Epoch 32 | lr 0.00100 | loss 3.39863
+Epoch 32 | lr 0.00100 | loss 3.31875
+Epoch 32 | lr 0.00100 | loss 3.48071
+Epoch 32 | lr 0.00100 | loss 3.52308
+Validation loss: 3.69788
+Test loss: 3.70160
+Saved model!
+
+Epoch 33 | lr 0.00100 | loss 3.36047
+Epoch 33 | lr 0.00100 | loss 3.46868
+Epoch 33 | lr 0.00100 | loss 3.37007
+Epoch 33 | lr 0.00100 | loss 3.44363
+Epoch 33 | lr 0.00100 | loss 3.39805
+Epoch 33 | lr 0.00100 | loss 3.47094
+Validation loss: 3.68370
+Test loss: 3.68572
+Saved model!
+
+Epoch 34 | lr 0.00100 | loss 3.32366
+Epoch 34 | lr 0.00100 | loss 3.41847
+Epoch 34 | lr 0.00100 | loss 3.43544
+Epoch 34 | lr 0.00100 | loss 3.46598
+Epoch 34 | lr 0.00100 | loss 3.71237
+Epoch 34 | lr 0.00100 | loss 3.29869
+Validation loss: 3.67057
+Test loss: 3.67349
+Saved model!
+
+Epoch 35 | lr 0.00100 | loss 3.36962
+Epoch 35 | lr 0.00100 | loss 3.41660
+Epoch 35 | lr 0.00100 | loss 3.45504
+Epoch 35 | lr 0.00100 | loss 3.77381
+Epoch 35 | lr 0.00100 | loss 3.36723
+Epoch 35 | lr 0.00100 | loss 3.40644
+Validation loss: 3.64756
+Test loss: 3.66894
+Saved model!
+
+Epoch 36 | lr 0.00100 | loss 3.26295
+Epoch 36 | lr 0.00100 | loss 3.37969
+Epoch 36 | lr 0.00100 | loss 3.42489
+Epoch 36 | lr 0.00100 | loss 3.30292
+Epoch 36 | lr 0.00100 | loss 3.40932
+Epoch 36 | lr 0.00100 | loss 3.36569
+Validation loss: 3.66194
+Test loss: 3.66739
+Epoch 37 | lr 0.00100 | loss 3.12920
+Epoch 37 | lr 0.00100 | loss 3.34219
+Epoch 37 | lr 0.00100 | loss 3.35724
+Epoch 37 | lr 0.00100 | loss 3.38863
+Epoch 37 | lr 0.00100 | loss 3.36880
+Epoch 37 | lr 0.00100 | loss 3.33334
+Validation loss: 3.65468
+Test loss: 3.66881
+Epoch 38 | lr 0.00100 | loss 3.69206
+Epoch 38 | lr 0.00100 | loss 2.73520
+Epoch 38 | lr 0.00100 | loss 3.22889
+Epoch 38 | lr 0.00100 | loss 3.33309
+Epoch 38 | lr 0.00100 | loss 3.34122
+Epoch 38 | lr 0.00100 | loss 3.33173
+Validation loss: 3.63918
+Test loss: 3.65268
+Saved model!
+
+Epoch 39 | lr 0.00100 | loss 3.32682
+Epoch 39 | lr 0.00100 | loss 3.26524
+Epoch 39 | lr 0.00100 | loss 3.32979
+Epoch 39 | lr 0.00100 | loss 3.33960
+Epoch 39 | lr 0.00100 | loss 3.18115
+Epoch 39 | lr 0.00100 | loss 3.39989
+Validation loss: 3.64635
+Test loss: 3.66828
+Epoch 40 | lr 0.00100 | loss 3.21766
+Epoch 40 | lr 0.00100 | loss 3.28036
+Epoch 40 | lr 0.00100 | loss 3.34418
+Epoch 40 | lr 0.00100 | loss 3.25045
+Epoch 40 | lr 0.00100 | loss 3.37187
+Epoch 40 | lr 0.00100 | loss 3.26892
+Validation loss: 3.59988
+Test loss: 3.62481
+Saved model!
+
+Epoch 41 | lr 0.00100 | loss 3.13830
+Epoch 41 | lr 0.00100 | loss 3.14528
+Epoch 41 | lr 0.00100 | loss 3.17468
+Epoch 41 | lr 0.00100 | loss 3.33503
+Epoch 41 | lr 0.00100 | loss 3.28171
+Epoch 41 | lr 0.00100 | loss 3.39511
+Validation loss: 3.59867
+Test loss: 3.61481
+Saved model!
+
+Epoch 42 | lr 0.00100 | loss 3.25919
+Epoch 42 | lr 0.00100 | loss 3.57122
+Epoch 42 | lr 0.00100 | loss 3.17715
+Epoch 42 | lr 0.00100 | loss 3.15107
+Epoch 42 | lr 0.00100 | loss 3.25683
+Epoch 42 | lr 0.00100 | loss 3.25836
+Validation loss: 3.60432
+Test loss: 3.63511
+Epoch 43 | lr 0.00100 | loss 3.12992
+Epoch 43 | lr 0.00100 | loss 3.30755
+Epoch 43 | lr 0.00100 | loss 3.15401
+Epoch 43 | lr 0.00100 | loss 3.18482
+Epoch 43 | lr 0.00100 | loss 3.23050
+Epoch 43 | lr 0.00100 | loss 3.60297
+Validation loss: 3.60944
+Test loss: 3.62946
+Epoch 44 | lr 0.00010 | loss 3.18300
+Epoch 44 | lr 0.00010 | loss 3.11487
+Epoch 44 | lr 0.00010 | loss 3.08225
+Epoch 44 | lr 0.00010 | loss 3.11327
+Epoch 44 | lr 0.00010 | loss 3.10641
+Epoch 44 | lr 0.00010 | loss 3.10136
+Validation loss: 3.54247
+Test loss: 3.56681
+Saved model!
+
+Epoch 45 | lr 0.00010 | loss 3.08733
+Epoch 45 | lr 0.00010 | loss 3.22793
+Epoch 45 | lr 0.00010 | loss 2.95142
+Epoch 45 | lr 0.00010 | loss 3.09080
+Epoch 45 | lr 0.00010 | loss 3.13014
+Epoch 45 | lr 0.00010 | loss 3.04298
+Validation loss: 3.54462
+Test loss: 3.57054
+Epoch 46 | lr 0.00010 | loss 3.07494
+Epoch 46 | lr 0.00010 | loss 3.06245
+Epoch 46 | lr 0.00010 | loss 3.20494
+Epoch 46 | lr 0.00010 | loss 3.11882
+Epoch 46 | lr 0.00010 | loss 3.06976
+Epoch 46 | lr 0.00010 | loss 3.10326
+Validation loss: 3.54120
+Test loss: 3.56616
+Saved model!
+
+Epoch 47 | lr 0.00010 | loss 3.14730
+Epoch 47 | lr 0.00010 | loss 3.01240
+Epoch 47 | lr 0.00010 | loss 2.97917
+Epoch 47 | lr 0.00010 | loss 3.06568
+Epoch 47 | lr 0.00010 | loss 3.11890
+Epoch 47 | lr 0.00010 | loss 3.10223
+Validation loss: 3.54820
+Test loss: 3.57069
+Epoch 48 | lr 0.00001 | loss 3.10942
+Epoch 48 | lr 0.00001 | loss 3.15457
+Epoch 48 | lr 0.00001 | loss 3.06859
+Epoch 48 | lr 0.00001 | loss 3.07287
+Epoch 48 | lr 0.00001 | loss 2.96848
+Epoch 48 | lr 0.00001 | loss 2.95915
+Validation loss: 3.54108
+Test loss: 3.57025
+Saved model!
+
+Epoch 49 | lr 0.00001 | loss 3.01555
+Epoch 49 | lr 0.00001 | loss 3.10431
+Epoch 49 | lr 0.00001 | loss 3.02205
+Epoch 49 | lr 0.00001 | loss 3.17797
+Epoch 49 | lr 0.00001 | loss 3.04556
+Epoch 49 | lr 0.00001 | loss 3.03444
+Validation loss: 3.54317
+Test loss: 3.56829
+Epoch 50 | lr 0.00001 | loss 3.17416
+Epoch 50 | lr 0.00001 | loss 2.90059
+Epoch 50 | lr 0.00001 | loss 3.47530
+Epoch 50 | lr 0.00001 | loss 3.04306
+Epoch 50 | lr 0.00001 | loss 3.09651
+Epoch 50 | lr 0.00001 | loss 3.06046
+Validation loss: 3.54400
+Test loss: 3.56281
+Epoch 51 | lr 0.00001 | loss 3.03588
+Epoch 51 | lr 0.00001 | loss 3.75807
+Epoch 51 | lr 0.00001 | loss 3.07413
+Epoch 51 | lr 0.00001 | loss 2.99943
+Epoch 51 | lr 0.00001 | loss 3.05306
+Epoch 51 | lr 0.00001 | loss 3.11569
+Validation loss: 3.54337
+Test loss: 3.56804
+Epoch 52 | lr 0.00001 | loss 3.10440
+Epoch 52 | lr 0.00001 | loss 3.10650
+Epoch 52 | lr 0.00001 | loss 3.10282
+Epoch 52 | lr 0.00001 | loss 3.05324
+Epoch 52 | lr 0.00001 | loss 3.10007
+Epoch 52 | lr 0.00001 | loss 3.01149
+Validation loss: 3.54345
+Test loss: 3.56878
+Epoch 53 | lr 0.00001 | loss 3.01326
+Epoch 53 | lr 0.00001 | loss 2.32999
+Epoch 53 | lr 0.00001 | loss 3.02021
+Epoch 53 | lr 0.00001 | loss 3.18286
+Epoch 53 | lr 0.00001 | loss 3.15914
+Epoch 53 | lr 0.00001 | loss 3.30278
+Validation loss: 3.54420
+Test loss: 3.56594
+Epoch 54 | lr 0.00000 | loss 3.08594
+Epoch 54 | lr 0.00000 | loss 3.04688
+Epoch 54 | lr 0.00000 | loss 3.04011
+Epoch 54 | lr 0.00000 | loss 3.00872
+Epoch 54 | lr 0.00000 | loss 3.02911
+Epoch 54 | lr 0.00000 | loss 3.14345
+Validation loss: 3.54343
+Test loss: 3.56817
+Epoch 55 | lr 0.00000 | loss 3.08858
+Epoch 55 | lr 0.00000 | loss 3.08401
+Epoch 55 | lr 0.00000 | loss 3.12376
+Epoch 55 | lr 0.00000 | loss 3.02593
+Epoch 55 | lr 0.00000 | loss 3.12472
+Epoch 55 | lr 0.00000 | loss 2.99492
+Validation loss: 3.54275
+Test loss: 3.56904
+Epoch 56 | lr 0.00000 | loss 3.02656
+Epoch 56 | lr 0.00000 | loss 3.10422
+Epoch 56 | lr 0.00000 | loss 2.83363
+Epoch 56 | lr 0.00000 | loss 2.97986
+Epoch 56 | lr 0.00000 | loss 2.99594
+Epoch 56 | lr 0.00000 | loss 3.09138
+Validation loss: 3.54185
+Test loss: 3.56715
+Epoch 57 | lr 0.00000 | loss 3.02422
+Epoch 57 | lr 0.00000 | loss 3.07810
+Epoch 57 | lr 0.00000 | loss 3.12381
+Epoch 57 | lr 0.00000 | loss 2.98179
+Epoch 57 | lr 0.00000 | loss 3.00899
+Epoch 57 | lr 0.00000 | loss 3.09697
+Validation loss: 3.54107
+Test loss: 3.56409
+Saved model!
+
+Epoch 58 | lr 0.00000 | loss 2.94923
+Epoch 58 | lr 0.00000 | loss 3.27895
+Epoch 58 | lr 0.00000 | loss 3.22639
+Epoch 58 | lr 0.00000 | loss 2.99868
+Epoch 58 | lr 0.00000 | loss 3.07450
+Epoch 58 | lr 0.00000 | loss 3.09392
+Validation loss: 3.54312
+Test loss: 3.56815
+Epoch 59 | lr 0.00000 | loss 3.05299
+Epoch 59 | lr 0.00000 | loss 3.03052
+Epoch 59 | lr 0.00000 | loss 3.03118
+Epoch 59 | lr 0.00000 | loss 3.11132
+Epoch 59 | lr 0.00000 | loss 3.40201
+Epoch 59 | lr 0.00000 | loss 2.97445
+Validation loss: 3.54158
+Test loss: 3.56351
+Epoch 60 | lr 0.00000 | loss 3.05446
+Epoch 60 | lr 0.00000 | loss 3.05083
+Epoch 60 | lr 0.00000 | loss 3.25614
+Epoch 60 | lr 0.00000 | loss 3.08361
+Epoch 60 | lr 0.00000 | loss 3.08368
+Epoch 60 | lr 0.00000 | loss 3.15912
+Validation loss: 3.53961
+Test loss: 3.56430
+Saved model!
+
+Epoch 61 | lr 0.00000 | loss 3.02144
+Epoch 61 | lr 0.00000 | loss 3.20860
+Epoch 61 | lr 0.00000 | loss 2.98890
+Epoch 61 | lr 0.00000 | loss 3.10590
+Epoch 61 | lr 0.00000 | loss 3.01569
+Epoch 61 | lr 0.00000 | loss 3.17881
+Validation loss: 3.54502
+Test loss: 3.56376
+Epoch 62 | lr 0.00000 | loss 3.07869
+Epoch 62 | lr 0.00000 | loss 3.15668
+Epoch 62 | lr 0.00000 | loss 2.96725
+Epoch 62 | lr 0.00000 | loss 2.99230
+Epoch 62 | lr 0.00000 | loss 2.99952
+Epoch 62 | lr 0.00000 | loss 3.07335
+Validation loss: 3.54547
+Test loss: 3.56940
+Epoch 63 | lr 0.00000 | loss 3.09180
+Epoch 63 | lr 0.00000 | loss 3.10271
+Epoch 63 | lr 0.00000 | loss 3.17427
+Epoch 63 | lr 0.00000 | loss 2.99545
+Epoch 63 | lr 0.00000 | loss 3.08191
+Epoch 63 | lr 0.00000 | loss 3.04138
+Validation loss: 3.54521
+Test loss: 3.56469
+Epoch 64 | lr 0.00000 | loss 2.99957
+Epoch 64 | lr 0.00000 | loss 3.10713
+Epoch 64 | lr 0.00000 | loss 2.88341
+Epoch 64 | lr 0.00000 | loss 3.07581
+Epoch 64 | lr 0.00000 | loss 3.01548
+Epoch 64 | lr 0.00000 | loss 3.04359
+Validation loss: 3.54606
+Test loss: 3.56836
+Epoch 65 | lr 0.00000 | loss 3.09236
+Epoch 65 | lr 0.00000 | loss 3.09224
+Epoch 65 | lr 0.00000 | loss 3.05060
+Epoch 65 | lr 0.00000 | loss 3.05368
+Epoch 65 | lr 0.00000 | loss 2.48254
+Epoch 65 | lr 0.00000 | loss 3.09874
+Validation loss: 3.54235
+Test loss: 3.56745
+Epoch 66 | lr 0.00000 | loss 3.07004
+Epoch 66 | lr 0.00000 | loss 3.11542
+Epoch 66 | lr 0.00000 | loss 3.00260
+Epoch 66 | lr 0.00000 | loss 3.01170
+Epoch 66 | lr 0.00000 | loss 3.04316
+Epoch 66 | lr 0.00000 | loss 3.15625
+Validation loss: 3.54214
+Test loss: 3.56817
+Epoch 67 | lr 0.00000 | loss 3.06066
+Epoch 67 | lr 0.00000 | loss 2.88894
+Epoch 67 | lr 0.00000 | loss 3.09893
+Epoch 67 | lr 0.00000 | loss 3.18323
+Epoch 67 | lr 0.00000 | loss 2.92163
+Epoch 67 | lr 0.00000 | loss 3.13513
+Validation loss: 3.54213
+Test loss: 3.56835
+Epoch 68 | lr 0.00000 | loss 3.10902
+Epoch 68 | lr 0.00000 | loss 2.96104
+Epoch 68 | lr 0.00000 | loss 3.13438
+Epoch 68 | lr 0.00000 | loss 3.05160
+Epoch 68 | lr 0.00000 | loss 3.09284
+Epoch 68 | lr 0.00000 | loss 3.06194
+Validation loss: 3.53987
+Test loss: 3.56447
+Epoch 69 | lr 0.00000 | loss 3.23144
+Epoch 69 | lr 0.00000 | loss 2.98012
+Epoch 69 | lr 0.00000 | loss 3.11779
+Epoch 69 | lr 0.00000 | loss 3.01919
+Epoch 69 | lr 0.00000 | loss 3.00583
+Epoch 69 | lr 0.00000 | loss 3.09495
+Validation loss: 3.54176
+Test loss: 3.56522
+Epoch 70 | lr 0.00000 | loss 3.15305
+Epoch 70 | lr 0.00000 | loss 3.13366
+Epoch 70 | lr 0.00000 | loss 3.05738
+Epoch 70 | lr 0.00000 | loss 3.07589
+Epoch 70 | lr 0.00000 | loss 3.00790
+Epoch 70 | lr 0.00000 | loss 3.05958
+Validation loss: 3.54395
+Test loss: 3.56669
+Epoch 71 | lr 0.00000 | loss 3.10460
+Epoch 71 | lr 0.00000 | loss 3.06886
+Epoch 71 | lr 0.00000 | loss 3.15760
+Epoch 71 | lr 0.00000 | loss 3.01488
+Epoch 71 | lr 0.00000 | loss 3.01349
+Epoch 71 | lr 0.00000 | loss 2.96585
+Validation loss: 3.54347
+Test loss: 3.56588
+Epoch 72 | lr 0.00000 | loss 3.00606
+Epoch 72 | lr 0.00000 | loss 2.60141
+Epoch 72 | lr 0.00000 | loss 3.54516
+Epoch 72 | lr 0.00000 | loss 3.01740
+Epoch 72 | lr 0.00000 | loss 3.04996
+Epoch 72 | lr 0.00000 | loss 3.10109
+Validation loss: 3.54533
+Test loss: 3.56664
+Epoch 73 | lr 0.00000 | loss 3.02153
+Epoch 73 | lr 0.00000 | loss 2.91121
+Epoch 73 | lr 0.00000 | loss 2.97006
+Epoch 73 | lr 0.00000 | loss 3.03077
+Epoch 73 | lr 0.00000 | loss 3.14812
+Epoch 73 | lr 0.00000 | loss 3.11337
+Validation loss: 3.54364
+Test loss: 3.56745
+Epoch 74 | lr 0.00000 | loss 3.03588
+Epoch 74 | lr 0.00000 | loss 3.00069
+Epoch 74 | lr 0.00000 | loss 3.18912
+Epoch 74 | lr 0.00000 | loss 3.14386
+Epoch 74 | lr 0.00000 | loss 3.06387
+Epoch 74 | lr 0.00000 | loss 3.13721
+Validation loss: 3.54115
+Test loss: 3.56533
+Epoch 75 | lr 0.00000 | loss 3.04075
+Epoch 75 | lr 0.00000 | loss 3.12849
+Epoch 75 | lr 0.00000 | loss 2.51353
+Epoch 75 | lr 0.00000 | loss 3.09971
+Epoch 75 | lr 0.00000 | loss 3.17189
+Epoch 75 | lr 0.00000 | loss 3.05421
+Validation loss: 3.54291
+Test loss: 3.57180
+Epoch 76 | lr 0.00000 | loss 3.14436
+Epoch 76 | lr 0.00000 | loss 3.06881
+Epoch 76 | lr 0.00000 | loss 2.97729
+Epoch 76 | lr 0.00000 | loss 3.06687
+Epoch 76 | lr 0.00000 | loss 3.11805
+Epoch 76 | lr 0.00000 | loss 3.02662
+Validation loss: 3.54286
+Test loss: 3.56611
+Epoch 77 | lr 0.00000 | loss 3.08385
+Epoch 77 | lr 0.00000 | loss 3.04713
+Epoch 77 | lr 0.00000 | loss 3.08248
+Epoch 77 | lr 0.00000 | loss 2.94760
+Epoch 77 | lr 0.00000 | loss 3.11511
+Epoch 77 | lr 0.00000 | loss 3.11400
+Validation loss: 3.54203
+Test loss: 3.57048
+Epoch 78 | lr 0.00000 | loss 3.09041
+Epoch 78 | lr 0.00000 | loss 2.72885
+Epoch 78 | lr 0.00000 | loss 3.00774
+Epoch 78 | lr 0.00000 | loss 3.02880
+Epoch 78 | lr 0.00000 | loss 3.34512
+Epoch 78 | lr 0.00000 | loss 3.09381
+Validation loss: 3.54554
+Test loss: 3.56565
+Epoch 79 | lr 0.00000 | loss 2.92796
+Epoch 79 | lr 0.00000 | loss 3.04002
+Epoch 79 | lr 0.00000 | loss 2.95415
+Epoch 79 | lr 0.00000 | loss 3.09963
+Epoch 79 | lr 0.00000 | loss 3.02769
+Epoch 79 | lr 0.00000 | loss 3.10002
+Validation loss: 3.54366
+Test loss: 3.56421
+Epoch 80 | lr 0.00000 | loss 3.05427
+Epoch 80 | lr 0.00000 | loss 3.03734
+Epoch 80 | lr 0.00000 | loss 3.05786
+Epoch 80 | lr 0.00000 | loss 2.61680
+Epoch 80 | lr 0.00000 | loss 3.11250
+Epoch 80 | lr 0.00000 | loss 3.07658
+Validation loss: 3.53838
+Test loss: 3.56571
+Saved model!
+
+Epoch 81 | lr 0.00000 | loss 3.04559
+Epoch 81 | lr 0.00000 | loss 2.15281
+Epoch 81 | lr 0.00000 | loss 3.30100
+Epoch 81 | lr 0.00000 | loss 3.48478
+Epoch 81 | lr 0.00000 | loss 3.17754
+Epoch 81 | lr 0.00000 | loss 3.02939
+Validation loss: 3.54169
+Test loss: 3.56652
+Epoch 82 | lr 0.00000 | loss 2.91436
+Epoch 82 | lr 0.00000 | loss 3.55041
+Epoch 82 | lr 0.00000 | loss 3.15994
+Epoch 82 | lr 0.00000 | loss 3.01705
+Epoch 82 | lr 0.00000 | loss 3.07591
+Epoch 82 | lr 0.00000 | loss 3.04743
+Validation loss: 3.54755
+Test loss: 3.56434
+Epoch 83 | lr 0.00000 | loss 3.07684
+Epoch 83 | lr 0.00000 | loss 2.98074
+Epoch 83 | lr 0.00000 | loss 3.09413
+Epoch 83 | lr 0.00000 | loss 2.85876
+Epoch 83 | lr 0.00000 | loss 3.07540
+Epoch 83 | lr 0.00000 | loss 3.05572
+Validation loss: 3.54101
+Test loss: 3.56483
+Epoch 84 | lr 0.00000 | loss 3.07232
+Epoch 84 | lr 0.00000 | loss 3.09707
+Epoch 84 | lr 0.00000 | loss 2.96026
+Epoch 84 | lr 0.00000 | loss 2.72416
+Epoch 84 | lr 0.00000 | loss 3.08567
+Epoch 84 | lr 0.00000 | loss 3.11450
+Validation loss: 3.54497
+Test loss: 3.56823
+Epoch 85 | lr 0.00000 | loss 3.03144
+Epoch 85 | lr 0.00000 | loss 3.01329
+Epoch 85 | lr 0.00000 | loss 3.09844
+Epoch 85 | lr 0.00000 | loss 3.19898
+Epoch 85 | lr 0.00000 | loss 2.93303
+Epoch 85 | lr 0.00000 | loss 3.06185
+Validation loss: 3.54302
+Test loss: 3.56908
+Epoch 86 | lr 0.00000 | loss 2.46145
+Epoch 86 | lr 0.00000 | loss 3.13155
+Epoch 86 | lr 0.00000 | loss 2.94552
+Epoch 86 | lr 0.00000 | loss 3.03960
+Epoch 86 | lr 0.00000 | loss 3.03183
+Epoch 86 | lr 0.00000 | loss 3.13467
+Validation loss: 3.54339
+Test loss: 3.56983
+Epoch 87 | lr 0.00000 | loss 3.31262
+Epoch 87 | lr 0.00000 | loss 3.05852
+Epoch 87 | lr 0.00000 | loss 3.13064
+Epoch 87 | lr 0.00000 | loss 3.01133
+Epoch 87 | lr 0.00000 | loss 3.05135
+Epoch 87 | lr 0.00000 | loss 2.91147
+Validation loss: 3.54259
+Test loss: 3.56406
+Epoch 88 | lr 0.00000 | loss 3.08949
+Epoch 88 | lr 0.00000 | loss 3.06989
+Epoch 88 | lr 0.00000 | loss 2.98137
+Epoch 88 | lr 0.00000 | loss 3.05703
+Epoch 88 | lr 0.00000 | loss 2.93684
+Epoch 88 | lr 0.00000 | loss 3.07003
+Validation loss: 3.54387
+Test loss: 3.56758
+Epoch 89 | lr 0.00000 | loss 3.01586
+Epoch 89 | lr 0.00000 | loss 3.09614
+Epoch 89 | lr 0.00000 | loss 3.17303
+Epoch 89 | lr 0.00000 | loss 3.09436
+Epoch 89 | lr 0.00000 | loss 3.05579
+Epoch 89 | lr 0.00000 | loss 2.96475
+Validation loss: 3.54435
+Test loss: 3.56279
+Epoch 90 | lr 0.00000 | loss 2.94769
+Epoch 90 | lr 0.00000 | loss 3.06356
+Epoch 90 | lr 0.00000 | loss 3.08489
+Epoch 90 | lr 0.00000 | loss 3.13100
+Epoch 90 | lr 0.00000 | loss 2.75638
+Epoch 90 | lr 0.00000 | loss 3.02975
+Validation loss: 3.54424
+Test loss: 3.56968
+Epoch 91 | lr 0.00000 | loss 3.17848
+Epoch 91 | lr 0.00000 | loss 3.10163
+Epoch 91 | lr 0.00000 | loss 3.39740
+Epoch 91 | lr 0.00000 | loss 3.02361
+Epoch 91 | lr 0.00000 | loss 2.59517
+Epoch 91 | lr 0.00000 | loss 3.02222
+Validation loss: 3.54398
+Test loss: 3.56612
+Epoch 92 | lr 0.00000 | loss 2.95884
+Epoch 92 | lr 0.00000 | loss 3.11083
+Epoch 92 | lr 0.00000 | loss 3.04613
+Epoch 92 | lr 0.00000 | loss 3.05817
+Epoch 92 | lr 0.00000 | loss 3.10055
+Epoch 92 | lr 0.00000 | loss 3.05313
+Validation loss: 3.54215
+Test loss: 3.56590
+Epoch 93 | lr 0.00000 | loss 2.92692
+Epoch 93 | lr 0.00000 | loss 3.12395
+Epoch 93 | lr 0.00000 | loss 2.99253
+Epoch 93 | lr 0.00000 | loss 3.09476
+Epoch 93 | lr 0.00000 | loss 3.08409
+Epoch 93 | lr 0.00000 | loss 3.08103
+Validation loss: 3.54168
+Test loss: 3.57041
+Epoch 94 | lr 0.00000 | loss 3.02127
+Epoch 94 | lr 0.00000 | loss 3.21480
+Epoch 94 | lr 0.00000 | loss 3.00148
+Epoch 94 | lr 0.00000 | loss 3.03361
+Epoch 94 | lr 0.00000 | loss 3.05843
+Epoch 94 | lr 0.00000 | loss 3.10030
+Validation loss: 3.54405
+Test loss: 3.56762
+Epoch 95 | lr 0.00000 | loss 3.03992
+Epoch 95 | lr 0.00000 | loss 3.01044
+Epoch 95 | lr 0.00000 | loss 3.54728
+Epoch 95 | lr 0.00000 | loss 3.04230
+Epoch 95 | lr 0.00000 | loss 3.10904
+Epoch 95 | lr 0.00000 | loss 2.99489
+Validation loss: 3.54078
+Test loss: 3.56442
+Epoch 96 | lr 0.00000 | loss 3.16071
+Epoch 96 | lr 0.00000 | loss 3.12679
+Epoch 96 | lr 0.00000 | loss 3.06194
+Epoch 96 | lr 0.00000 | loss 3.21603
+Epoch 96 | lr 0.00000 | loss 3.03701
+Epoch 96 | lr 0.00000 | loss 2.98929
+Validation loss: 3.54233
+Test loss: 3.56563
+Epoch 97 | lr 0.00000 | loss 2.97318
+Epoch 97 | lr 0.00000 | loss 3.02905
+Epoch 97 | lr 0.00000 | loss 2.85061
+Epoch 97 | lr 0.00000 | loss 3.11471
+Epoch 97 | lr 0.00000 | loss 3.02012
+Epoch 97 | lr 0.00000 | loss 3.32350
+Validation loss: 3.54157
+Test loss: 3.56612
+Epoch 98 | lr 0.00000 | loss 3.06730
+Epoch 98 | lr 0.00000 | loss 2.94847
+Epoch 98 | lr 0.00000 | loss 3.04615
+Epoch 98 | lr 0.00000 | loss 3.07895
+Epoch 98 | lr 0.00000 | loss 3.21392
+Epoch 98 | lr 0.00000 | loss 3.08296
+Validation loss: 3.54392
+Test loss: 3.56635
+Epoch 99 | lr 0.00000 | loss 3.13364
+Epoch 99 | lr 0.00000 | loss 3.02608
+Epoch 99 | lr 0.00000 | loss 3.09148
+Epoch 99 | lr 0.00000 | loss 3.03401
+Epoch 99 | lr 0.00000 | loss 3.02553
+Epoch 99 | lr 0.00000 | loss 3.06227
+Validation loss: 3.54165
+Test loss: 3.56521
+Epoch 100 | lr 0.00000 | loss 3.04420
+Epoch 100 | lr 0.00000 | loss 3.51180
+Epoch 100 | lr 0.00000 | loss 3.23679
+Epoch 100 | lr 0.00000 | loss 3.06680
+Epoch 100 | lr 0.00000 | loss 3.04264
+Epoch 100 | lr 0.00000 | loss 2.16437
+Validation loss: 3.54304
+Test loss: 3.56545
+-----------------------------------------------------------------------------------------
+Eval loss: 3.56722

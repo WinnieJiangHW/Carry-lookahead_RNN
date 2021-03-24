@@ -1,0 +1,61 @@
+Namespace(batch_size=256, clip=-1, cuda=True, dropout=0.05, epochs=12, ksize=7, levels=8, log_interval=100, lr=0.002, nhid=1, optim='Adam', permute=False, seed=1111)
+
+Train Epoch: 1 [25600/60000 (43%)]	Loss: 0.870674	Steps: 79184
+Train Epoch: 1 [51200/60000 (85%)]	Loss: 0.406622	Steps: 157584
+
+Test set: Average loss: 0.3445, Accuracy: 8971/10000 (90%)
+
+Train Epoch: 2 [25600/60000 (43%)]	Loss: 0.336995	Steps: 263424
+Train Epoch: 2 [51200/60000 (85%)]	Loss: 0.323581	Steps: 341824
+
+Test set: Average loss: 0.2870, Accuracy: 9165/10000 (92%)
+
+Train Epoch: 3 [25600/60000 (43%)]	Loss: 0.298218	Steps: 447664
+Train Epoch: 3 [51200/60000 (85%)]	Loss: 0.299511	Steps: 526064
+
+Test set: Average loss: 0.2672, Accuracy: 9241/10000 (92%)
+
+Train Epoch: 4 [25600/60000 (43%)]	Loss: 0.277895	Steps: 631904
+Train Epoch: 4 [51200/60000 (85%)]	Loss: 0.279838	Steps: 710304
+
+Test set: Average loss: 0.2537, Accuracy: 9278/10000 (93%)
+
+Train Epoch: 5 [25600/60000 (43%)]	Loss: 0.263634	Steps: 816144
+Train Epoch: 5 [51200/60000 (85%)]	Loss: 0.265977	Steps: 894544
+
+Test set: Average loss: 0.2401, Accuracy: 9322/10000 (93%)
+
+Train Epoch: 6 [25600/60000 (43%)]	Loss: 0.250784	Steps: 1000384
+Train Epoch: 6 [51200/60000 (85%)]	Loss: 0.252663	Steps: 1078784
+
+Test set: Average loss: 0.2423, Accuracy: 9312/10000 (93%)
+
+Train Epoch: 7 [25600/60000 (43%)]	Loss: 0.239221	Steps: 1184624
+Train Epoch: 7 [51200/60000 (85%)]	Loss: 0.242937	Steps: 1263024
+
+Test set: Average loss: 0.2304, Accuracy: 9343/10000 (93%)
+
+Train Epoch: 8 [25600/60000 (43%)]	Loss: 0.230504	Steps: 1368864
+Train Epoch: 8 [51200/60000 (85%)]	Loss: 0.233754	Steps: 1447264
+
+Test set: Average loss: 0.2185, Accuracy: 9389/10000 (94%)
+
+Train Epoch: 9 [25600/60000 (43%)]	Loss: 0.222618	Steps: 1553104
+Train Epoch: 9 [51200/60000 (85%)]	Loss: 0.225782	Steps: 1631504
+
+Test set: Average loss: 0.2162, Accuracy: 9400/10000 (94%)
+
+Train Epoch: 10 [25600/60000 (43%)]	Loss: 0.215694	Steps: 1737344
+Train Epoch: 10 [51200/60000 (85%)]	Loss: 0.219357	Steps: 1815744
+
+Test set: Average loss: 0.2109, Accuracy: 9405/10000 (94%)
+
+Train Epoch: 11 [25600/60000 (43%)]	Loss: 0.196080	Steps: 1921584
+Train Epoch: 11 [51200/60000 (85%)]	Loss: 0.192169	Steps: 1999984
+
+Test set: Average loss: 0.1922, Accuracy: 9461/10000 (95%)
+
+Train Epoch: 12 [25600/60000 (43%)]	Loss: 0.187069	Steps: 2105824
+Train Epoch: 12 [51200/60000 (85%)]	Loss: 0.189057	Steps: 2184224
+
+Test set: Average loss: 0.1903, Accuracy: 9455/10000 (95%)

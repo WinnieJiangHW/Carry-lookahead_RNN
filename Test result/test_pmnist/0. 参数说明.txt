@@ -1,0 +1,2 @@
+channel_sizes = [1] * 8
+kernel_size = 7

@@ -1,0 +1,8 @@
+ReLU
+Test set: Average loss: 0.0837, Accuracy: 9771/10000 (98%)
+
+Dropout(0.2)
+Test set: Average loss: 0.0762, Accuracy: 9805/10000 (98%)
+
+ReLU+Dropout(0.2)
+Test set: Average loss: 0.0739, Accuracy: 9772/10000 (98%)

@@ -1,0 +1,1164 @@
+Namespace(batch_size=32, clip=0.15, cuda=True, dataset='ptb', dropout=0.1, emb_dropout=0.1, emsize=100, epochs=100, ksize=3, levels=3, log_interval=100, lr=4, nhid=450, optim='SGD', seed=1111, seq_len=400, validseqlen=320)
+Corpus size:  49
+Training for 100 epochs...
+| epoch   1 |   100/  514 batches | lr 4.00000 | ms/batch 25.73 | loss 3.078 | bpc 4.441
+| epoch   1 |   200/  514 batches | lr 4.00000 | ms/batch 24.33 | loss 2.580 | bpc 3.722
+| epoch   1 |   300/  514 batches | lr 4.00000 | ms/batch 24.34 | loss 2.294 | bpc 3.309
+| epoch   1 |   400/  514 batches | lr 4.00000 | ms/batch 24.39 | loss 2.150 | bpc 3.102
+| epoch   1 |   500/  514 batches | lr 4.00000 | ms/batch 24.38 | loss 2.035 | bpc 2.936
+-----------------------------------------------------------------------------------------
+| End of epoch   1 | valid loss 1.906 | valid bpc    2.750
+=========================================================================================
+| End of epoch   1 | test loss 1.893 | test bpc    2.731
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch   2 |   100/  514 batches | lr 4.00000 | ms/batch 24.54 | loss 1.941 | bpc 2.800
+| epoch   2 |   200/  514 batches | lr 4.00000 | ms/batch 24.51 | loss 1.832 | bpc 2.643
+| epoch   2 |   300/  514 batches | lr 4.00000 | ms/batch 24.58 | loss 1.744 | bpc 2.516
+| epoch   2 |   400/  514 batches | lr 4.00000 | ms/batch 24.63 | loss 1.666 | bpc 2.404
+| epoch   2 |   500/  514 batches | lr 4.00000 | ms/batch 24.75 | loss 1.601 | bpc 2.309
+-----------------------------------------------------------------------------------------
+| End of epoch   2 | valid loss 1.479 | valid bpc    2.134
+=========================================================================================
+| End of epoch   2 | test loss 1.460 | test bpc    2.106
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch   3 |   100/  514 batches | lr 4.00000 | ms/batch 24.88 | loss 1.558 | bpc 2.248
+| epoch   3 |   200/  514 batches | lr 4.00000 | ms/batch 24.78 | loss 1.494 | bpc 2.155
+| epoch   3 |   300/  514 batches | lr 4.00000 | ms/batch 24.78 | loss 1.448 | bpc 2.089
+| epoch   3 |   400/  514 batches | lr 4.00000 | ms/batch 25.06 | loss 1.408 | bpc 2.031
+| epoch   3 |   500/  514 batches | lr 4.00000 | ms/batch 24.97 | loss 1.381 | bpc 1.992
+-----------------------------------------------------------------------------------------
+| End of epoch   3 | valid loss 1.288 | valid bpc    1.859
+=========================================================================================
+| End of epoch   3 | test loss 1.261 | test bpc    1.820
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch   4 |   100/  514 batches | lr 4.00000 | ms/batch 25.25 | loss 1.372 | bpc 1.979
+| epoch   4 |   200/  514 batches | lr 4.00000 | ms/batch 25.19 | loss 1.334 | bpc 1.925
+| epoch   4 |   300/  514 batches | lr 4.00000 | ms/batch 25.13 | loss 1.312 | bpc 1.893
+| epoch   4 |   400/  514 batches | lr 4.00000 | ms/batch 25.19 | loss 1.288 | bpc 1.858
+| epoch   4 |   500/  514 batches | lr 4.00000 | ms/batch 25.21 | loss 1.276 | bpc 1.841
+-----------------------------------------------------------------------------------------
+| End of epoch   4 | valid loss 1.203 | valid bpc    1.736
+=========================================================================================
+| End of epoch   4 | test loss 1.174 | test bpc    1.694
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch   5 |   100/  514 batches | lr 4.00000 | ms/batch 25.59 | loss 1.280 | bpc 1.847
+| epoch   5 |   200/  514 batches | lr 4.00000 | ms/batch 25.55 | loss 1.254 | bpc 1.809
+| epoch   5 |   300/  514 batches | lr 4.00000 | ms/batch 25.45 | loss 1.241 | bpc 1.790
+| epoch   5 |   400/  514 batches | lr 4.00000 | ms/batch 25.61 | loss 1.223 | bpc 1.764
+| epoch   5 |   500/  514 batches | lr 4.00000 | ms/batch 25.68 | loss 1.219 | bpc 1.759
+-----------------------------------------------------------------------------------------
+| End of epoch   5 | valid loss 1.158 | valid bpc    1.671
+=========================================================================================
+| End of epoch   5 | test loss 1.128 | test bpc    1.627
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch   6 |   100/  514 batches | lr 4.00000 | ms/batch 25.94 | loss 1.228 | bpc 1.772
+| epoch   6 |   200/  514 batches | lr 4.00000 | ms/batch 25.98 | loss 1.208 | bpc 1.742
+| epoch   6 |   300/  514 batches | lr 4.00000 | ms/batch 26.00 | loss 1.199 | bpc 1.730
+| epoch   6 |   400/  514 batches | lr 4.00000 | ms/batch 26.01 | loss 1.184 | bpc 1.708
+| epoch   6 |   500/  514 batches | lr 4.00000 | ms/batch 26.04 | loss 1.183 | bpc 1.707
+-----------------------------------------------------------------------------------------
+| End of epoch   6 | valid loss 1.131 | valid bpc    1.631
+=========================================================================================
+| End of epoch   6 | test loss 1.101 | test bpc    1.588
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch   7 |   100/  514 batches | lr 4.00000 | ms/batch 26.37 | loss 1.198 | bpc 1.728
+| epoch   7 |   200/  514 batches | lr 4.00000 | ms/batch 26.33 | loss 1.178 | bpc 1.699
+| epoch   7 |   300/  514 batches | lr 4.00000 | ms/batch 26.32 | loss 1.172 | bpc 1.690
+| epoch   7 |   400/  514 batches | lr 4.00000 | ms/batch 26.45 | loss 1.158 | bpc 1.670
+| epoch   7 |   500/  514 batches | lr 4.00000 | ms/batch 26.60 | loss 1.161 | bpc 1.674
+-----------------------------------------------------------------------------------------
+| End of epoch   7 | valid loss 1.113 | valid bpc    1.605
+=========================================================================================
+| End of epoch   7 | test loss 1.082 | test bpc    1.560
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch   8 |   100/  514 batches | lr 4.00000 | ms/batch 26.92 | loss 1.175 | bpc 1.695
+| epoch   8 |   200/  514 batches | lr 4.00000 | ms/batch 26.82 | loss 1.157 | bpc 1.670
+| epoch   8 |   300/  514 batches | lr 4.00000 | ms/batch 26.89 | loss 1.153 | bpc 1.663
+| epoch   8 |   400/  514 batches | lr 4.00000 | ms/batch 26.95 | loss 1.139 | bpc 1.643
+| epoch   8 |   500/  514 batches | lr 4.00000 | ms/batch 27.05 | loss 1.143 | bpc 1.649
+-----------------------------------------------------------------------------------------
+| End of epoch   8 | valid loss 1.099 | valid bpc    1.585
+=========================================================================================
+| End of epoch   8 | test loss 1.069 | test bpc    1.542
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch   9 |   100/  514 batches | lr 4.00000 | ms/batch 27.45 | loss 1.158 | bpc 1.671
+| epoch   9 |   200/  514 batches | lr 4.00000 | ms/batch 27.24 | loss 1.143 | bpc 1.649
+| epoch   9 |   300/  514 batches | lr 4.00000 | ms/batch 27.36 | loss 1.138 | bpc 1.642
+| epoch   9 |   400/  514 batches | lr 4.00000 | ms/batch 27.51 | loss 1.126 | bpc 1.624
+| epoch   9 |   500/  514 batches | lr 4.00000 | ms/batch 27.42 | loss 1.131 | bpc 1.631
+-----------------------------------------------------------------------------------------
+| End of epoch   9 | valid loss 1.088 | valid bpc    1.570
+=========================================================================================
+| End of epoch   9 | test loss 1.058 | test bpc    1.527
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  10 |   100/  514 batches | lr 4.00000 | ms/batch 27.79 | loss 1.145 | bpc 1.652
+| epoch  10 |   200/  514 batches | lr 4.00000 | ms/batch 27.60 | loss 1.130 | bpc 1.630
+| epoch  10 |   300/  514 batches | lr 4.00000 | ms/batch 27.45 | loss 1.128 | bpc 1.627
+| epoch  10 |   400/  514 batches | lr 4.00000 | ms/batch 27.61 | loss 1.115 | bpc 1.609
+| epoch  10 |   500/  514 batches | lr 4.00000 | ms/batch 27.28 | loss 1.120 | bpc 1.615
+-----------------------------------------------------------------------------------------
+| End of epoch  10 | valid loss 1.080 | valid bpc    1.558
+=========================================================================================
+| End of epoch  10 | test loss 1.051 | test bpc    1.516
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  11 |   100/  514 batches | lr 4.00000 | ms/batch 27.27 | loss 1.136 | bpc 1.638
+| epoch  11 |   200/  514 batches | lr 4.00000 | ms/batch 27.05 | loss 1.121 | bpc 1.617
+| epoch  11 |   300/  514 batches | lr 4.00000 | ms/batch 26.92 | loss 1.119 | bpc 1.614
+| epoch  11 |   400/  514 batches | lr 4.00000 | ms/batch 26.94 | loss 1.106 | bpc 1.596
+| epoch  11 |   500/  514 batches | lr 4.00000 | ms/batch 26.90 | loss 1.111 | bpc 1.603
+-----------------------------------------------------------------------------------------
+| End of epoch  11 | valid loss 1.073 | valid bpc    1.548
+=========================================================================================
+| End of epoch  11 | test loss 1.044 | test bpc    1.506
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  12 |   100/  514 batches | lr 4.00000 | ms/batch 26.98 | loss 1.126 | bpc 1.625
+| epoch  12 |   200/  514 batches | lr 4.00000 | ms/batch 26.94 | loss 1.113 | bpc 1.606
+| epoch  12 |   300/  514 batches | lr 4.00000 | ms/batch 26.81 | loss 1.112 | bpc 1.604
+| epoch  12 |   400/  514 batches | lr 4.00000 | ms/batch 26.82 | loss 1.099 | bpc 1.586
+| epoch  12 |   500/  514 batches | lr 4.00000 | ms/batch 26.89 | loss 1.104 | bpc 1.593
+-----------------------------------------------------------------------------------------
+| End of epoch  12 | valid loss 1.067 | valid bpc    1.540
+=========================================================================================
+| End of epoch  12 | test loss 1.038 | test bpc    1.497
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  13 |   100/  514 batches | lr 4.00000 | ms/batch 27.13 | loss 1.120 | bpc 1.616
+| epoch  13 |   200/  514 batches | lr 4.00000 | ms/batch 27.01 | loss 1.107 | bpc 1.597
+| epoch  13 |   300/  514 batches | lr 4.00000 | ms/batch 27.08 | loss 1.106 | bpc 1.595
+| epoch  13 |   400/  514 batches | lr 4.00000 | ms/batch 27.07 | loss 1.093 | bpc 1.577
+| epoch  13 |   500/  514 batches | lr 4.00000 | ms/batch 27.16 | loss 1.098 | bpc 1.584
+-----------------------------------------------------------------------------------------
+| End of epoch  13 | valid loss 1.064 | valid bpc    1.534
+=========================================================================================
+| End of epoch  13 | test loss 1.034 | test bpc    1.491
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  14 |   100/  514 batches | lr 4.00000 | ms/batch 27.43 | loss 1.114 | bpc 1.608
+| epoch  14 |   200/  514 batches | lr 4.00000 | ms/batch 27.33 | loss 1.100 | bpc 1.588
+| epoch  14 |   300/  514 batches | lr 4.00000 | ms/batch 27.37 | loss 1.100 | bpc 1.587
+| epoch  14 |   400/  514 batches | lr 4.00000 | ms/batch 27.19 | loss 1.087 | bpc 1.569
+| epoch  14 |   500/  514 batches | lr 4.00000 | ms/batch 27.36 | loss 1.093 | bpc 1.577
+-----------------------------------------------------------------------------------------
+| End of epoch  14 | valid loss 1.059 | valid bpc    1.528
+=========================================================================================
+| End of epoch  14 | test loss 1.030 | test bpc    1.485
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  15 |   100/  514 batches | lr 4.00000 | ms/batch 27.37 | loss 1.109 | bpc 1.600
+| epoch  15 |   200/  514 batches | lr 4.00000 | ms/batch 27.06 | loss 1.096 | bpc 1.581
+| epoch  15 |   300/  514 batches | lr 4.00000 | ms/batch 27.23 | loss 1.095 | bpc 1.580
+| epoch  15 |   400/  514 batches | lr 4.00000 | ms/batch 27.21 | loss 1.082 | bpc 1.561
+| epoch  15 |   500/  514 batches | lr 4.00000 | ms/batch 26.98 | loss 1.089 | bpc 1.571
+-----------------------------------------------------------------------------------------
+| End of epoch  15 | valid loss 1.056 | valid bpc    1.523
+=========================================================================================
+| End of epoch  15 | test loss 1.027 | test bpc    1.481
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  16 |   100/  514 batches | lr 4.00000 | ms/batch 27.19 | loss 1.105 | bpc 1.594
+| epoch  16 |   200/  514 batches | lr 4.00000 | ms/batch 26.97 | loss 1.092 | bpc 1.576
+| epoch  16 |   300/  514 batches | lr 4.00000 | ms/batch 26.97 | loss 1.091 | bpc 1.574
+| epoch  16 |   400/  514 batches | lr 4.00000 | ms/batch 26.93 | loss 1.079 | bpc 1.557
+| epoch  16 |   500/  514 batches | lr 4.00000 | ms/batch 26.99 | loss 1.085 | bpc 1.565
+-----------------------------------------------------------------------------------------
+| End of epoch  16 | valid loss 1.052 | valid bpc    1.518
+=========================================================================================
+| End of epoch  16 | test loss 1.023 | test bpc    1.475
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  17 |   100/  514 batches | lr 4.00000 | ms/batch 27.23 | loss 1.101 | bpc 1.589
+| epoch  17 |   200/  514 batches | lr 4.00000 | ms/batch 27.06 | loss 1.088 | bpc 1.569
+| epoch  17 |   300/  514 batches | lr 4.00000 | ms/batch 27.00 | loss 1.087 | bpc 1.569
+| epoch  17 |   400/  514 batches | lr 4.00000 | ms/batch 26.99 | loss 1.074 | bpc 1.550
+| epoch  17 |   500/  514 batches | lr 4.00000 | ms/batch 26.97 | loss 1.081 | bpc 1.560
+-----------------------------------------------------------------------------------------
+| End of epoch  17 | valid loss 1.049 | valid bpc    1.513
+=========================================================================================
+| End of epoch  17 | test loss 1.019 | test bpc    1.471
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  18 |   100/  514 batches | lr 4.00000 | ms/batch 27.24 | loss 1.098 | bpc 1.584
+| epoch  18 |   200/  514 batches | lr 4.00000 | ms/batch 27.03 | loss 1.084 | bpc 1.563
+| epoch  18 |   300/  514 batches | lr 4.00000 | ms/batch 27.01 | loss 1.083 | bpc 1.563
+| epoch  18 |   400/  514 batches | lr 4.00000 | ms/batch 27.12 | loss 1.071 | bpc 1.546
+| epoch  18 |   500/  514 batches | lr 4.00000 | ms/batch 27.06 | loss 1.078 | bpc 1.555
+-----------------------------------------------------------------------------------------
+| End of epoch  18 | valid loss 1.046 | valid bpc    1.510
+=========================================================================================
+| End of epoch  18 | test loss 1.017 | test bpc    1.468
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  19 |   100/  514 batches | lr 4.00000 | ms/batch 27.36 | loss 1.095 | bpc 1.580
+| epoch  19 |   200/  514 batches | lr 4.00000 | ms/batch 27.13 | loss 1.081 | bpc 1.560
+| epoch  19 |   300/  514 batches | lr 4.00000 | ms/batch 27.03 | loss 1.081 | bpc 1.560
+| epoch  19 |   400/  514 batches | lr 4.00000 | ms/batch 27.13 | loss 1.068 | bpc 1.541
+| epoch  19 |   500/  514 batches | lr 4.00000 | ms/batch 27.13 | loss 1.075 | bpc 1.550
+-----------------------------------------------------------------------------------------
+| End of epoch  19 | valid loss 1.044 | valid bpc    1.506
+=========================================================================================
+| End of epoch  19 | test loss 1.015 | test bpc    1.464
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  20 |   100/  514 batches | lr 4.00000 | ms/batch 27.34 | loss 1.090 | bpc 1.573
+| epoch  20 |   200/  514 batches | lr 4.00000 | ms/batch 27.11 | loss 1.079 | bpc 1.557
+| epoch  20 |   300/  514 batches | lr 4.00000 | ms/batch 27.06 | loss 1.078 | bpc 1.555
+| epoch  20 |   400/  514 batches | lr 4.00000 | ms/batch 27.07 | loss 1.065 | bpc 1.536
+| epoch  20 |   500/  514 batches | lr 4.00000 | ms/batch 26.97 | loss 1.072 | bpc 1.546
+-----------------------------------------------------------------------------------------
+| End of epoch  20 | valid loss 1.041 | valid bpc    1.502
+=========================================================================================
+| End of epoch  20 | test loss 1.012 | test bpc    1.460
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  21 |   100/  514 batches | lr 4.00000 | ms/batch 27.23 | loss 1.088 | bpc 1.569
+| epoch  21 |   200/  514 batches | lr 4.00000 | ms/batch 27.02 | loss 1.076 | bpc 1.552
+| epoch  21 |   300/  514 batches | lr 4.00000 | ms/batch 26.99 | loss 1.076 | bpc 1.552
+| epoch  21 |   400/  514 batches | lr 4.00000 | ms/batch 27.05 | loss 1.064 | bpc 1.534
+| epoch  21 |   500/  514 batches | lr 4.00000 | ms/batch 27.15 | loss 1.069 | bpc 1.543
+-----------------------------------------------------------------------------------------
+| End of epoch  21 | valid loss 1.039 | valid bpc    1.498
+=========================================================================================
+| End of epoch  21 | test loss 1.010 | test bpc    1.457
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  22 |   100/  514 batches | lr 4.00000 | ms/batch 27.35 | loss 1.086 | bpc 1.566
+| epoch  22 |   200/  514 batches | lr 4.00000 | ms/batch 27.05 | loss 1.074 | bpc 1.549
+| epoch  22 |   300/  514 batches | lr 4.00000 | ms/batch 27.10 | loss 1.073 | bpc 1.549
+| epoch  22 |   400/  514 batches | lr 4.00000 | ms/batch 26.96 | loss 1.061 | bpc 1.531
+| epoch  22 |   500/  514 batches | lr 4.00000 | ms/batch 26.95 | loss 1.067 | bpc 1.539
+-----------------------------------------------------------------------------------------
+| End of epoch  22 | valid loss 1.038 | valid bpc    1.498
+=========================================================================================
+| End of epoch  22 | test loss 1.009 | test bpc    1.456
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  23 |   100/  514 batches | lr 4.00000 | ms/batch 27.40 | loss 1.083 | bpc 1.563
+| epoch  23 |   200/  514 batches | lr 4.00000 | ms/batch 26.99 | loss 1.072 | bpc 1.546
+| epoch  23 |   300/  514 batches | lr 4.00000 | ms/batch 26.94 | loss 1.071 | bpc 1.545
+| epoch  23 |   400/  514 batches | lr 4.00000 | ms/batch 27.00 | loss 1.058 | bpc 1.527
+| epoch  23 |   500/  514 batches | lr 4.00000 | ms/batch 26.95 | loss 1.065 | bpc 1.536
+-----------------------------------------------------------------------------------------
+| End of epoch  23 | valid loss 1.036 | valid bpc    1.495
+=========================================================================================
+| End of epoch  23 | test loss 1.006 | test bpc    1.452
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  24 |   100/  514 batches | lr 4.00000 | ms/batch 27.21 | loss 1.081 | bpc 1.560
+| epoch  24 |   200/  514 batches | lr 4.00000 | ms/batch 27.10 | loss 1.069 | bpc 1.543
+| epoch  24 |   300/  514 batches | lr 4.00000 | ms/batch 27.06 | loss 1.068 | bpc 1.541
+| epoch  24 |   400/  514 batches | lr 4.00000 | ms/batch 27.03 | loss 1.056 | bpc 1.524
+| epoch  24 |   500/  514 batches | lr 4.00000 | ms/batch 26.95 | loss 1.063 | bpc 1.533
+-----------------------------------------------------------------------------------------
+| End of epoch  24 | valid loss 1.034 | valid bpc    1.491
+=========================================================================================
+| End of epoch  24 | test loss 1.005 | test bpc    1.449
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  25 |   100/  514 batches | lr 4.00000 | ms/batch 27.16 | loss 1.080 | bpc 1.557
+| epoch  25 |   200/  514 batches | lr 4.00000 | ms/batch 27.03 | loss 1.068 | bpc 1.540
+| epoch  25 |   300/  514 batches | lr 4.00000 | ms/batch 26.98 | loss 1.067 | bpc 1.539
+| epoch  25 |   400/  514 batches | lr 4.00000 | ms/batch 27.03 | loss 1.054 | bpc 1.521
+| epoch  25 |   500/  514 batches | lr 4.00000 | ms/batch 27.02 | loss 1.061 | bpc 1.530
+-----------------------------------------------------------------------------------------
+| End of epoch  25 | valid loss 1.034 | valid bpc    1.492
+=========================================================================================
+| End of epoch  25 | test loss 1.004 | test bpc    1.448
+=========================================================================================
+| epoch  26 |   100/  514 batches | lr 4.00000 | ms/batch 27.30 | loss 1.078 | bpc 1.555
+| epoch  26 |   200/  514 batches | lr 4.00000 | ms/batch 27.08 | loss 1.065 | bpc 1.537
+| epoch  26 |   300/  514 batches | lr 4.00000 | ms/batch 26.94 | loss 1.065 | bpc 1.537
+| epoch  26 |   400/  514 batches | lr 4.00000 | ms/batch 27.00 | loss 1.052 | bpc 1.518
+| epoch  26 |   500/  514 batches | lr 4.00000 | ms/batch 26.98 | loss 1.059 | bpc 1.527
+-----------------------------------------------------------------------------------------
+| End of epoch  26 | valid loss 1.031 | valid bpc    1.487
+=========================================================================================
+| End of epoch  26 | test loss 1.002 | test bpc    1.446
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  27 |   100/  514 batches | lr 4.00000 | ms/batch 27.23 | loss 1.077 | bpc 1.553
+| epoch  27 |   200/  514 batches | lr 4.00000 | ms/batch 26.98 | loss 1.064 | bpc 1.535
+| epoch  27 |   300/  514 batches | lr 4.00000 | ms/batch 26.96 | loss 1.064 | bpc 1.535
+| epoch  27 |   400/  514 batches | lr 4.00000 | ms/batch 26.99 | loss 1.050 | bpc 1.516
+| epoch  27 |   500/  514 batches | lr 4.00000 | ms/batch 27.09 | loss 1.058 | bpc 1.527
+-----------------------------------------------------------------------------------------
+| End of epoch  27 | valid loss 1.030 | valid bpc    1.486
+=========================================================================================
+| End of epoch  27 | test loss 1.002 | test bpc    1.445
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  28 |   100/  514 batches | lr 4.00000 | ms/batch 27.23 | loss 1.073 | bpc 1.548
+| epoch  28 |   200/  514 batches | lr 4.00000 | ms/batch 26.99 | loss 1.062 | bpc 1.532
+| epoch  28 |   300/  514 batches | lr 4.00000 | ms/batch 26.98 | loss 1.062 | bpc 1.532
+| epoch  28 |   400/  514 batches | lr 4.00000 | ms/batch 27.11 | loss 1.049 | bpc 1.514
+| epoch  28 |   500/  514 batches | lr 4.00000 | ms/batch 27.12 | loss 1.056 | bpc 1.523
+-----------------------------------------------------------------------------------------
+| End of epoch  28 | valid loss 1.029 | valid bpc    1.484
+=========================================================================================
+| End of epoch  28 | test loss 1.000 | test bpc    1.442
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  29 |   100/  514 batches | lr 4.00000 | ms/batch 27.21 | loss 1.072 | bpc 1.547
+| epoch  29 |   200/  514 batches | lr 4.00000 | ms/batch 26.96 | loss 1.061 | bpc 1.530
+| epoch  29 |   300/  514 batches | lr 4.00000 | ms/batch 26.99 | loss 1.061 | bpc 1.531
+| epoch  29 |   400/  514 batches | lr 4.00000 | ms/batch 26.98 | loss 1.048 | bpc 1.512
+| epoch  29 |   500/  514 batches | lr 4.00000 | ms/batch 27.06 | loss 1.055 | bpc 1.522
+-----------------------------------------------------------------------------------------
+| End of epoch  29 | valid loss 1.028 | valid bpc    1.483
+=========================================================================================
+| End of epoch  29 | test loss 0.998 | test bpc    1.440
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  30 |   100/  514 batches | lr 4.00000 | ms/batch 27.20 | loss 1.070 | bpc 1.544
+| epoch  30 |   200/  514 batches | lr 4.00000 | ms/batch 27.02 | loss 1.059 | bpc 1.528
+| epoch  30 |   300/  514 batches | lr 4.00000 | ms/batch 26.96 | loss 1.059 | bpc 1.528
+| epoch  30 |   400/  514 batches | lr 4.00000 | ms/batch 27.12 | loss 1.046 | bpc 1.509
+| epoch  30 |   500/  514 batches | lr 4.00000 | ms/batch 26.97 | loss 1.053 | bpc 1.519
+-----------------------------------------------------------------------------------------
+| End of epoch  30 | valid loss 1.027 | valid bpc    1.482
+=========================================================================================
+| End of epoch  30 | test loss 0.998 | test bpc    1.440
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  31 |   100/  514 batches | lr 4.00000 | ms/batch 27.25 | loss 1.070 | bpc 1.543
+| epoch  31 |   200/  514 batches | lr 4.00000 | ms/batch 26.96 | loss 1.058 | bpc 1.527
+| epoch  31 |   300/  514 batches | lr 4.00000 | ms/batch 26.94 | loss 1.058 | bpc 1.526
+| epoch  31 |   400/  514 batches | lr 4.00000 | ms/batch 27.05 | loss 1.044 | bpc 1.506
+| epoch  31 |   500/  514 batches | lr 4.00000 | ms/batch 27.00 | loss 1.052 | bpc 1.517
+-----------------------------------------------------------------------------------------
+| End of epoch  31 | valid loss 1.025 | valid bpc    1.479
+=========================================================================================
+| End of epoch  31 | test loss 0.997 | test bpc    1.438
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  32 |   100/  514 batches | lr 4.00000 | ms/batch 27.25 | loss 1.068 | bpc 1.540
+| epoch  32 |   200/  514 batches | lr 4.00000 | ms/batch 27.02 | loss 1.057 | bpc 1.525
+| epoch  32 |   300/  514 batches | lr 4.00000 | ms/batch 27.06 | loss 1.057 | bpc 1.525
+| epoch  32 |   400/  514 batches | lr 4.00000 | ms/batch 26.95 | loss 1.044 | bpc 1.506
+| epoch  32 |   500/  514 batches | lr 4.00000 | ms/batch 26.97 | loss 1.051 | bpc 1.516
+-----------------------------------------------------------------------------------------
+| End of epoch  32 | valid loss 1.025 | valid bpc    1.479
+=========================================================================================
+| End of epoch  32 | test loss 0.996 | test bpc    1.437
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  33 |   100/  514 batches | lr 4.00000 | ms/batch 27.34 | loss 1.067 | bpc 1.540
+| epoch  33 |   200/  514 batches | lr 4.00000 | ms/batch 27.08 | loss 1.056 | bpc 1.523
+| epoch  33 |   300/  514 batches | lr 4.00000 | ms/batch 26.97 | loss 1.055 | bpc 1.522
+| epoch  33 |   400/  514 batches | lr 4.00000 | ms/batch 27.02 | loss 1.042 | bpc 1.503
+| epoch  33 |   500/  514 batches | lr 4.00000 | ms/batch 26.99 | loss 1.050 | bpc 1.514
+-----------------------------------------------------------------------------------------
+| End of epoch  33 | valid loss 1.024 | valid bpc    1.477
+=========================================================================================
+| End of epoch  33 | test loss 0.995 | test bpc    1.435
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  34 |   100/  514 batches | lr 4.00000 | ms/batch 27.27 | loss 1.066 | bpc 1.537
+| epoch  34 |   200/  514 batches | lr 4.00000 | ms/batch 27.00 | loss 1.054 | bpc 1.520
+| epoch  34 |   300/  514 batches | lr 4.00000 | ms/batch 27.12 | loss 1.054 | bpc 1.520
+| epoch  34 |   400/  514 batches | lr 4.00000 | ms/batch 26.97 | loss 1.041 | bpc 1.501
+| epoch  34 |   500/  514 batches | lr 4.00000 | ms/batch 27.10 | loss 1.048 | bpc 1.512
+-----------------------------------------------------------------------------------------
+| End of epoch  34 | valid loss 1.023 | valid bpc    1.476
+=========================================================================================
+| End of epoch  34 | test loss 0.995 | test bpc    1.435
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  35 |   100/  514 batches | lr 4.00000 | ms/batch 27.22 | loss 1.064 | bpc 1.535
+| epoch  35 |   200/  514 batches | lr 4.00000 | ms/batch 27.12 | loss 1.053 | bpc 1.519
+| epoch  35 |   300/  514 batches | lr 4.00000 | ms/batch 27.00 | loss 1.053 | bpc 1.519
+| epoch  35 |   400/  514 batches | lr 4.00000 | ms/batch 27.09 | loss 1.040 | bpc 1.500
+| epoch  35 |   500/  514 batches | lr 4.00000 | ms/batch 27.16 | loss 1.048 | bpc 1.511
+-----------------------------------------------------------------------------------------
+| End of epoch  35 | valid loss 1.022 | valid bpc    1.475
+=========================================================================================
+| End of epoch  35 | test loss 0.994 | test bpc    1.433
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  36 |   100/  514 batches | lr 4.00000 | ms/batch 27.33 | loss 1.063 | bpc 1.534
+| epoch  36 |   200/  514 batches | lr 4.00000 | ms/batch 27.01 | loss 1.051 | bpc 1.517
+| epoch  36 |   300/  514 batches | lr 4.00000 | ms/batch 26.98 | loss 1.052 | bpc 1.518
+| epoch  36 |   400/  514 batches | lr 4.00000 | ms/batch 26.97 | loss 1.038 | bpc 1.498
+| epoch  36 |   500/  514 batches | lr 4.00000 | ms/batch 26.99 | loss 1.046 | bpc 1.509
+-----------------------------------------------------------------------------------------
+| End of epoch  36 | valid loss 1.021 | valid bpc    1.473
+=========================================================================================
+| End of epoch  36 | test loss 0.992 | test bpc    1.431
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  37 |   100/  514 batches | lr 4.00000 | ms/batch 27.27 | loss 1.062 | bpc 1.532
+| epoch  37 |   200/  514 batches | lr 4.00000 | ms/batch 27.07 | loss 1.051 | bpc 1.516
+| epoch  37 |   300/  514 batches | lr 4.00000 | ms/batch 27.05 | loss 1.051 | bpc 1.516
+| epoch  37 |   400/  514 batches | lr 4.00000 | ms/batch 26.96 | loss 1.037 | bpc 1.497
+| epoch  37 |   500/  514 batches | lr 4.00000 | ms/batch 26.93 | loss 1.045 | bpc 1.508
+-----------------------------------------------------------------------------------------
+| End of epoch  37 | valid loss 1.021 | valid bpc    1.472
+=========================================================================================
+| End of epoch  37 | test loss 0.992 | test bpc    1.431
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  38 |   100/  514 batches | lr 4.00000 | ms/batch 27.12 | loss 1.061 | bpc 1.531
+| epoch  38 |   200/  514 batches | lr 4.00000 | ms/batch 26.94 | loss 1.050 | bpc 1.514
+| epoch  38 |   300/  514 batches | lr 4.00000 | ms/batch 26.89 | loss 1.049 | bpc 1.514
+| epoch  38 |   400/  514 batches | lr 4.00000 | ms/batch 26.95 | loss 1.037 | bpc 1.496
+| epoch  38 |   500/  514 batches | lr 4.00000 | ms/batch 26.93 | loss 1.044 | bpc 1.506
+-----------------------------------------------------------------------------------------
+| End of epoch  38 | valid loss 1.018 | valid bpc    1.469
+=========================================================================================
+| End of epoch  38 | test loss 0.991 | test bpc    1.429
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  39 |   100/  514 batches | lr 4.00000 | ms/batch 27.12 | loss 1.060 | bpc 1.529
+| epoch  39 |   200/  514 batches | lr 4.00000 | ms/batch 26.98 | loss 1.049 | bpc 1.514
+| epoch  39 |   300/  514 batches | lr 4.00000 | ms/batch 27.03 | loss 1.049 | bpc 1.513
+| epoch  39 |   400/  514 batches | lr 4.00000 | ms/batch 27.02 | loss 1.036 | bpc 1.494
+| epoch  39 |   500/  514 batches | lr 4.00000 | ms/batch 26.99 | loss 1.043 | bpc 1.505
+-----------------------------------------------------------------------------------------
+| End of epoch  39 | valid loss 1.018 | valid bpc    1.469
+=========================================================================================
+| End of epoch  39 | test loss 0.990 | test bpc    1.429
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  40 |   100/  514 batches | lr 4.00000 | ms/batch 27.37 | loss 1.060 | bpc 1.529
+| epoch  40 |   200/  514 batches | lr 4.00000 | ms/batch 27.01 | loss 1.049 | bpc 1.513
+| epoch  40 |   300/  514 batches | lr 4.00000 | ms/batch 26.95 | loss 1.048 | bpc 1.512
+| epoch  40 |   400/  514 batches | lr 4.00000 | ms/batch 26.94 | loss 1.034 | bpc 1.492
+| epoch  40 |   500/  514 batches | lr 4.00000 | ms/batch 26.97 | loss 1.043 | bpc 1.504
+-----------------------------------------------------------------------------------------
+| End of epoch  40 | valid loss 1.018 | valid bpc    1.468
+=========================================================================================
+| End of epoch  40 | test loss 0.989 | test bpc    1.427
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  41 |   100/  514 batches | lr 4.00000 | ms/batch 27.46 | loss 1.058 | bpc 1.526
+| epoch  41 |   200/  514 batches | lr 4.00000 | ms/batch 27.06 | loss 1.047 | bpc 1.511
+| epoch  41 |   300/  514 batches | lr 4.00000 | ms/batch 26.98 | loss 1.046 | bpc 1.510
+| epoch  41 |   400/  514 batches | lr 4.00000 | ms/batch 26.94 | loss 1.034 | bpc 1.491
+| epoch  41 |   500/  514 batches | lr 4.00000 | ms/batch 27.00 | loss 1.042 | bpc 1.503
+-----------------------------------------------------------------------------------------
+| End of epoch  41 | valid loss 1.017 | valid bpc    1.467
+=========================================================================================
+| End of epoch  41 | test loss 0.988 | test bpc    1.426
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  42 |   100/  514 batches | lr 4.00000 | ms/batch 27.28 | loss 1.058 | bpc 1.526
+| epoch  42 |   200/  514 batches | lr 4.00000 | ms/batch 26.96 | loss 1.046 | bpc 1.510
+| epoch  42 |   300/  514 batches | lr 4.00000 | ms/batch 27.02 | loss 1.046 | bpc 1.509
+| epoch  42 |   400/  514 batches | lr 4.00000 | ms/batch 26.90 | loss 1.033 | bpc 1.491
+| epoch  42 |   500/  514 batches | lr 4.00000 | ms/batch 26.97 | loss 1.040 | bpc 1.500
+-----------------------------------------------------------------------------------------
+| End of epoch  42 | valid loss 1.016 | valid bpc    1.466
+=========================================================================================
+| End of epoch  42 | test loss 0.988 | test bpc    1.426
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  43 |   100/  514 batches | lr 4.00000 | ms/batch 27.18 | loss 1.056 | bpc 1.523
+| epoch  43 |   200/  514 batches | lr 4.00000 | ms/batch 26.97 | loss 1.045 | bpc 1.508
+| epoch  43 |   300/  514 batches | lr 4.00000 | ms/batch 26.95 | loss 1.045 | bpc 1.508
+| epoch  43 |   400/  514 batches | lr 4.00000 | ms/batch 26.93 | loss 1.031 | bpc 1.488
+| epoch  43 |   500/  514 batches | lr 4.00000 | ms/batch 26.98 | loss 1.040 | bpc 1.500
+-----------------------------------------------------------------------------------------
+| End of epoch  43 | valid loss 1.017 | valid bpc    1.467
+=========================================================================================
+| End of epoch  43 | test loss 0.988 | test bpc    1.426
+=========================================================================================
+| epoch  44 |   100/  514 batches | lr 4.00000 | ms/batch 27.27 | loss 1.056 | bpc 1.523
+| epoch  44 |   200/  514 batches | lr 4.00000 | ms/batch 26.86 | loss 1.044 | bpc 1.507
+| epoch  44 |   300/  514 batches | lr 4.00000 | ms/batch 26.91 | loss 1.045 | bpc 1.507
+| epoch  44 |   400/  514 batches | lr 4.00000 | ms/batch 26.97 | loss 1.032 | bpc 1.488
+| epoch  44 |   500/  514 batches | lr 4.00000 | ms/batch 26.93 | loss 1.039 | bpc 1.499
+-----------------------------------------------------------------------------------------
+| End of epoch  44 | valid loss 1.017 | valid bpc    1.467
+=========================================================================================
+| End of epoch  44 | test loss 0.989 | test bpc    1.426
+=========================================================================================
+| epoch  45 |   100/  514 batches | lr 4.00000 | ms/batch 27.34 | loss 1.055 | bpc 1.522
+| epoch  45 |   200/  514 batches | lr 4.00000 | ms/batch 26.95 | loss 1.044 | bpc 1.506
+| epoch  45 |   300/  514 batches | lr 4.00000 | ms/batch 26.96 | loss 1.044 | bpc 1.506
+| epoch  45 |   400/  514 batches | lr 4.00000 | ms/batch 26.92 | loss 1.031 | bpc 1.487
+| epoch  45 |   500/  514 batches | lr 4.00000 | ms/batch 26.99 | loss 1.038 | bpc 1.497
+-----------------------------------------------------------------------------------------
+| End of epoch  45 | valid loss 1.015 | valid bpc    1.465
+=========================================================================================
+| End of epoch  45 | test loss 0.987 | test bpc    1.423
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  46 |   100/  514 batches | lr 4.00000 | ms/batch 27.16 | loss 1.055 | bpc 1.521
+| epoch  46 |   200/  514 batches | lr 4.00000 | ms/batch 27.02 | loss 1.043 | bpc 1.505
+| epoch  46 |   300/  514 batches | lr 4.00000 | ms/batch 26.88 | loss 1.043 | bpc 1.504
+| epoch  46 |   400/  514 batches | lr 4.00000 | ms/batch 26.93 | loss 1.029 | bpc 1.485
+| epoch  46 |   500/  514 batches | lr 4.00000 | ms/batch 26.95 | loss 1.037 | bpc 1.497
+-----------------------------------------------------------------------------------------
+| End of epoch  46 | valid loss 1.014 | valid bpc    1.464
+=========================================================================================
+| End of epoch  46 | test loss 0.986 | test bpc    1.423
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  47 |   100/  514 batches | lr 4.00000 | ms/batch 27.23 | loss 1.053 | bpc 1.519
+| epoch  47 |   200/  514 batches | lr 4.00000 | ms/batch 27.00 | loss 1.043 | bpc 1.505
+| epoch  47 |   300/  514 batches | lr 4.00000 | ms/batch 26.93 | loss 1.042 | bpc 1.503
+| epoch  47 |   400/  514 batches | lr 4.00000 | ms/batch 26.90 | loss 1.029 | bpc 1.484
+| epoch  47 |   500/  514 batches | lr 4.00000 | ms/batch 26.95 | loss 1.036 | bpc 1.495
+-----------------------------------------------------------------------------------------
+| End of epoch  47 | valid loss 1.014 | valid bpc    1.463
+=========================================================================================
+| End of epoch  47 | test loss 0.986 | test bpc    1.422
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  48 |   100/  514 batches | lr 4.00000 | ms/batch 27.21 | loss 1.052 | bpc 1.518
+| epoch  48 |   200/  514 batches | lr 4.00000 | ms/batch 27.01 | loss 1.042 | bpc 1.503
+| epoch  48 |   300/  514 batches | lr 4.00000 | ms/batch 27.02 | loss 1.042 | bpc 1.503
+| epoch  48 |   400/  514 batches | lr 4.00000 | ms/batch 26.89 | loss 1.028 | bpc 1.483
+| epoch  48 |   500/  514 batches | lr 4.00000 | ms/batch 26.99 | loss 1.036 | bpc 1.494
+-----------------------------------------------------------------------------------------
+| End of epoch  48 | valid loss 1.013 | valid bpc    1.462
+=========================================================================================
+| End of epoch  48 | test loss 0.985 | test bpc    1.422
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  49 |   100/  514 batches | lr 4.00000 | ms/batch 27.29 | loss 1.052 | bpc 1.518
+| epoch  49 |   200/  514 batches | lr 4.00000 | ms/batch 26.94 | loss 1.041 | bpc 1.502
+| epoch  49 |   300/  514 batches | lr 4.00000 | ms/batch 26.90 | loss 1.041 | bpc 1.501
+| epoch  49 |   400/  514 batches | lr 4.00000 | ms/batch 26.93 | loss 1.028 | bpc 1.483
+| epoch  49 |   500/  514 batches | lr 4.00000 | ms/batch 27.03 | loss 1.036 | bpc 1.494
+-----------------------------------------------------------------------------------------
+| End of epoch  49 | valid loss 1.013 | valid bpc    1.462
+=========================================================================================
+| End of epoch  49 | test loss 0.985 | test bpc    1.421
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  50 |   100/  514 batches | lr 4.00000 | ms/batch 27.11 | loss 1.051 | bpc 1.517
+| epoch  50 |   200/  514 batches | lr 4.00000 | ms/batch 26.98 | loss 1.040 | bpc 1.500
+| epoch  50 |   300/  514 batches | lr 4.00000 | ms/batch 26.91 | loss 1.040 | bpc 1.500
+| epoch  50 |   400/  514 batches | lr 4.00000 | ms/batch 26.91 | loss 1.026 | bpc 1.481
+| epoch  50 |   500/  514 batches | lr 4.00000 | ms/batch 26.96 | loss 1.034 | bpc 1.492
+-----------------------------------------------------------------------------------------
+| End of epoch  50 | valid loss 1.011 | valid bpc    1.459
+=========================================================================================
+| End of epoch  50 | test loss 0.984 | test bpc    1.419
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  51 |   100/  514 batches | lr 4.00000 | ms/batch 27.16 | loss 1.051 | bpc 1.516
+| epoch  51 |   200/  514 batches | lr 4.00000 | ms/batch 27.04 | loss 1.040 | bpc 1.500
+| epoch  51 |   300/  514 batches | lr 4.00000 | ms/batch 26.90 | loss 1.040 | bpc 1.500
+| epoch  51 |   400/  514 batches | lr 4.00000 | ms/batch 27.09 | loss 1.026 | bpc 1.480
+| epoch  51 |   500/  514 batches | lr 4.00000 | ms/batch 26.92 | loss 1.034 | bpc 1.492
+-----------------------------------------------------------------------------------------
+| End of epoch  51 | valid loss 1.012 | valid bpc    1.460
+=========================================================================================
+| End of epoch  51 | test loss 0.984 | test bpc    1.420
+=========================================================================================
+| epoch  52 |   100/  514 batches | lr 4.00000 | ms/batch 27.27 | loss 1.050 | bpc 1.514
+| epoch  52 |   200/  514 batches | lr 4.00000 | ms/batch 26.94 | loss 1.039 | bpc 1.498
+| epoch  52 |   300/  514 batches | lr 4.00000 | ms/batch 27.04 | loss 1.039 | bpc 1.499
+| epoch  52 |   400/  514 batches | lr 4.00000 | ms/batch 26.89 | loss 1.024 | bpc 1.478
+| epoch  52 |   500/  514 batches | lr 4.00000 | ms/batch 26.83 | loss 1.033 | bpc 1.491
+-----------------------------------------------------------------------------------------
+| End of epoch  52 | valid loss 1.011 | valid bpc    1.459
+=========================================================================================
+| End of epoch  52 | test loss 0.984 | test bpc    1.419
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  53 |   100/  514 batches | lr 4.00000 | ms/batch 27.10 | loss 1.049 | bpc 1.513
+| epoch  53 |   200/  514 batches | lr 4.00000 | ms/batch 26.87 | loss 1.038 | bpc 1.498
+| epoch  53 |   300/  514 batches | lr 4.00000 | ms/batch 26.87 | loss 1.038 | bpc 1.498
+| epoch  53 |   400/  514 batches | lr 4.00000 | ms/batch 26.87 | loss 1.024 | bpc 1.478
+| epoch  53 |   500/  514 batches | lr 4.00000 | ms/batch 26.92 | loss 1.032 | bpc 1.489
+-----------------------------------------------------------------------------------------
+| End of epoch  53 | valid loss 1.010 | valid bpc    1.458
+=========================================================================================
+| End of epoch  53 | test loss 0.983 | test bpc    1.417
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  54 |   100/  514 batches | lr 4.00000 | ms/batch 26.99 | loss 1.048 | bpc 1.512
+| epoch  54 |   200/  514 batches | lr 4.00000 | ms/batch 26.90 | loss 1.037 | bpc 1.496
+| epoch  54 |   300/  514 batches | lr 4.00000 | ms/batch 26.84 | loss 1.038 | bpc 1.497
+| epoch  54 |   400/  514 batches | lr 4.00000 | ms/batch 26.91 | loss 1.024 | bpc 1.478
+| epoch  54 |   500/  514 batches | lr 4.00000 | ms/batch 26.88 | loss 1.032 | bpc 1.488
+-----------------------------------------------------------------------------------------
+| End of epoch  54 | valid loss 1.010 | valid bpc    1.457
+=========================================================================================
+| End of epoch  54 | test loss 0.982 | test bpc    1.417
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  55 |   100/  514 batches | lr 4.00000 | ms/batch 27.17 | loss 1.047 | bpc 1.511
+| epoch  55 |   200/  514 batches | lr 4.00000 | ms/batch 26.96 | loss 1.037 | bpc 1.496
+| epoch  55 |   300/  514 batches | lr 4.00000 | ms/batch 26.84 | loss 1.037 | bpc 1.495
+| epoch  55 |   400/  514 batches | lr 4.00000 | ms/batch 26.96 | loss 1.023 | bpc 1.476
+| epoch  55 |   500/  514 batches | lr 4.00000 | ms/batch 26.80 | loss 1.031 | bpc 1.487
+-----------------------------------------------------------------------------------------
+| End of epoch  55 | valid loss 1.010 | valid bpc    1.457
+=========================================================================================
+| End of epoch  55 | test loss 0.982 | test bpc    1.416
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  56 |   100/  514 batches | lr 4.00000 | ms/batch 26.92 | loss 1.047 | bpc 1.510
+| epoch  56 |   200/  514 batches | lr 4.00000 | ms/batch 26.85 | loss 1.036 | bpc 1.494
+| epoch  56 |   300/  514 batches | lr 4.00000 | ms/batch 26.89 | loss 1.036 | bpc 1.495
+| epoch  56 |   400/  514 batches | lr 4.00000 | ms/batch 26.83 | loss 1.022 | bpc 1.474
+| epoch  56 |   500/  514 batches | lr 4.00000 | ms/batch 26.84 | loss 1.030 | bpc 1.487
+-----------------------------------------------------------------------------------------
+| End of epoch  56 | valid loss 1.009 | valid bpc    1.455
+=========================================================================================
+| End of epoch  56 | test loss 0.981 | test bpc    1.416
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  57 |   100/  514 batches | lr 4.00000 | ms/batch 26.98 | loss 1.046 | bpc 1.509
+| epoch  57 |   200/  514 batches | lr 4.00000 | ms/batch 26.82 | loss 1.036 | bpc 1.494
+| epoch  57 |   300/  514 batches | lr 4.00000 | ms/batch 26.82 | loss 1.035 | bpc 1.493
+| epoch  57 |   400/  514 batches | lr 4.00000 | ms/batch 26.81 | loss 1.022 | bpc 1.475
+| epoch  57 |   500/  514 batches | lr 4.00000 | ms/batch 26.80 | loss 1.030 | bpc 1.486
+-----------------------------------------------------------------------------------------
+| End of epoch  57 | valid loss 1.008 | valid bpc    1.455
+=========================================================================================
+| End of epoch  57 | test loss 0.981 | test bpc    1.415
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  58 |   100/  514 batches | lr 4.00000 | ms/batch 27.03 | loss 1.046 | bpc 1.508
+| epoch  58 |   200/  514 batches | lr 4.00000 | ms/batch 26.77 | loss 1.035 | bpc 1.493
+| epoch  58 |   300/  514 batches | lr 4.00000 | ms/batch 26.92 | loss 1.035 | bpc 1.493
+| epoch  58 |   400/  514 batches | lr 4.00000 | ms/batch 26.87 | loss 1.021 | bpc 1.473
+| epoch  58 |   500/  514 batches | lr 4.00000 | ms/batch 26.89 | loss 1.030 | bpc 1.485
+-----------------------------------------------------------------------------------------
+| End of epoch  58 | valid loss 1.008 | valid bpc    1.454
+=========================================================================================
+| End of epoch  58 | test loss 0.981 | test bpc    1.415
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  59 |   100/  514 batches | lr 4.00000 | ms/batch 26.99 | loss 1.045 | bpc 1.508
+| epoch  59 |   200/  514 batches | lr 4.00000 | ms/batch 26.75 | loss 1.034 | bpc 1.491
+| epoch  59 |   300/  514 batches | lr 4.00000 | ms/batch 26.76 | loss 1.034 | bpc 1.492
+| epoch  59 |   400/  514 batches | lr 4.00000 | ms/batch 26.71 | loss 1.021 | bpc 1.473
+| epoch  59 |   500/  514 batches | lr 4.00000 | ms/batch 26.80 | loss 1.029 | bpc 1.485
+-----------------------------------------------------------------------------------------
+| End of epoch  59 | valid loss 1.008 | valid bpc    1.454
+=========================================================================================
+| End of epoch  59 | test loss 0.980 | test bpc    1.414
+=========================================================================================
+| epoch  60 |   100/  514 batches | lr 4.00000 | ms/batch 27.08 | loss 1.045 | bpc 1.507
+| epoch  60 |   200/  514 batches | lr 4.00000 | ms/batch 26.82 | loss 1.033 | bpc 1.491
+| epoch  60 |   300/  514 batches | lr 4.00000 | ms/batch 26.83 | loss 1.034 | bpc 1.491
+| epoch  60 |   400/  514 batches | lr 4.00000 | ms/batch 26.75 | loss 1.020 | bpc 1.471
+| epoch  60 |   500/  514 batches | lr 4.00000 | ms/batch 26.71 | loss 1.028 | bpc 1.483
+-----------------------------------------------------------------------------------------
+| End of epoch  60 | valid loss 1.008 | valid bpc    1.454
+=========================================================================================
+| End of epoch  60 | test loss 0.980 | test bpc    1.414
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  61 |   100/  514 batches | lr 4.00000 | ms/batch 27.09 | loss 1.044 | bpc 1.506
+| epoch  61 |   200/  514 batches | lr 4.00000 | ms/batch 26.84 | loss 1.033 | bpc 1.490
+| epoch  61 |   300/  514 batches | lr 4.00000 | ms/batch 26.82 | loss 1.033 | bpc 1.491
+| epoch  61 |   400/  514 batches | lr 4.00000 | ms/batch 26.77 | loss 1.019 | bpc 1.471
+| epoch  61 |   500/  514 batches | lr 4.00000 | ms/batch 26.88 | loss 1.027 | bpc 1.482
+-----------------------------------------------------------------------------------------
+| End of epoch  61 | valid loss 1.007 | valid bpc    1.453
+=========================================================================================
+| End of epoch  61 | test loss 0.980 | test bpc    1.413
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  62 |   100/  514 batches | lr 4.00000 | ms/batch 27.06 | loss 1.043 | bpc 1.504
+| epoch  62 |   200/  514 batches | lr 4.00000 | ms/batch 26.93 | loss 1.031 | bpc 1.488
+| epoch  62 |   300/  514 batches | lr 4.00000 | ms/batch 26.87 | loss 1.032 | bpc 1.489
+| epoch  62 |   400/  514 batches | lr 4.00000 | ms/batch 26.73 | loss 1.020 | bpc 1.472
+| epoch  62 |   500/  514 batches | lr 4.00000 | ms/batch 26.81 | loss 1.028 | bpc 1.483
+-----------------------------------------------------------------------------------------
+| End of epoch  62 | valid loss 1.007 | valid bpc    1.453
+=========================================================================================
+| End of epoch  62 | test loss 0.979 | test bpc    1.413
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  63 |   100/  514 batches | lr 4.00000 | ms/batch 26.94 | loss 1.042 | bpc 1.504
+| epoch  63 |   200/  514 batches | lr 4.00000 | ms/batch 26.87 | loss 1.032 | bpc 1.489
+| epoch  63 |   300/  514 batches | lr 4.00000 | ms/batch 26.96 | loss 1.032 | bpc 1.488
+| epoch  63 |   400/  514 batches | lr 4.00000 | ms/batch 26.70 | loss 1.018 | bpc 1.469
+| epoch  63 |   500/  514 batches | lr 4.00000 | ms/batch 26.67 | loss 1.026 | bpc 1.480
+-----------------------------------------------------------------------------------------
+| End of epoch  63 | valid loss 1.006 | valid bpc    1.452
+=========================================================================================
+| End of epoch  63 | test loss 0.978 | test bpc    1.412
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  64 |   100/  514 batches | lr 4.00000 | ms/batch 26.97 | loss 1.042 | bpc 1.503
+| epoch  64 |   200/  514 batches | lr 4.00000 | ms/batch 26.76 | loss 1.031 | bpc 1.488
+| epoch  64 |   300/  514 batches | lr 4.00000 | ms/batch 26.93 | loss 1.031 | bpc 1.488
+| epoch  64 |   400/  514 batches | lr 4.00000 | ms/batch 26.77 | loss 1.018 | bpc 1.469
+| epoch  64 |   500/  514 batches | lr 4.00000 | ms/batch 26.71 | loss 1.026 | bpc 1.480
+-----------------------------------------------------------------------------------------
+| End of epoch  64 | valid loss 1.006 | valid bpc    1.452
+=========================================================================================
+| End of epoch  64 | test loss 0.978 | test bpc    1.412
+=========================================================================================
+| epoch  65 |   100/  514 batches | lr 4.00000 | ms/batch 27.14 | loss 1.041 | bpc 1.502
+| epoch  65 |   200/  514 batches | lr 4.00000 | ms/batch 26.87 | loss 1.031 | bpc 1.488
+| epoch  65 |   300/  514 batches | lr 4.00000 | ms/batch 26.82 | loss 1.031 | bpc 1.487
+| epoch  65 |   400/  514 batches | lr 4.00000 | ms/batch 26.79 | loss 1.018 | bpc 1.469
+| epoch  65 |   500/  514 batches | lr 4.00000 | ms/batch 26.70 | loss 1.027 | bpc 1.481
+-----------------------------------------------------------------------------------------
+| End of epoch  65 | valid loss 1.006 | valid bpc    1.452
+=========================================================================================
+| End of epoch  65 | test loss 0.978 | test bpc    1.411
+=========================================================================================
+| epoch  66 |   100/  514 batches | lr 4.00000 | ms/batch 26.96 | loss 1.041 | bpc 1.502
+| epoch  66 |   200/  514 batches | lr 4.00000 | ms/batch 26.68 | loss 1.031 | bpc 1.487
+| epoch  66 |   300/  514 batches | lr 4.00000 | ms/batch 26.77 | loss 1.031 | bpc 1.487
+| epoch  66 |   400/  514 batches | lr 4.00000 | ms/batch 26.73 | loss 1.017 | bpc 1.468
+| epoch  66 |   500/  514 batches | lr 4.00000 | ms/batch 26.87 | loss 1.025 | bpc 1.479
+-----------------------------------------------------------------------------------------
+| End of epoch  66 | valid loss 1.005 | valid bpc    1.451
+=========================================================================================
+| End of epoch  66 | test loss 0.978 | test bpc    1.410
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  67 |   100/  514 batches | lr 4.00000 | ms/batch 27.05 | loss 1.040 | bpc 1.501
+| epoch  67 |   200/  514 batches | lr 4.00000 | ms/batch 26.73 | loss 1.030 | bpc 1.486
+| epoch  67 |   300/  514 batches | lr 4.00000 | ms/batch 26.71 | loss 1.030 | bpc 1.486
+| epoch  67 |   400/  514 batches | lr 4.00000 | ms/batch 26.84 | loss 1.017 | bpc 1.467
+| epoch  67 |   500/  514 batches | lr 4.00000 | ms/batch 26.74 | loss 1.025 | bpc 1.479
+-----------------------------------------------------------------------------------------
+| End of epoch  67 | valid loss 1.005 | valid bpc    1.450
+=========================================================================================
+| End of epoch  67 | test loss 0.977 | test bpc    1.409
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  68 |   100/  514 batches | lr 4.00000 | ms/batch 26.94 | loss 1.040 | bpc 1.501
+| epoch  68 |   200/  514 batches | lr 4.00000 | ms/batch 26.90 | loss 1.029 | bpc 1.485
+| epoch  68 |   300/  514 batches | lr 4.00000 | ms/batch 26.77 | loss 1.031 | bpc 1.487
+| epoch  68 |   400/  514 batches | lr 4.00000 | ms/batch 26.85 | loss 1.016 | bpc 1.466
+| epoch  68 |   500/  514 batches | lr 4.00000 | ms/batch 26.74 | loss 1.024 | bpc 1.477
+-----------------------------------------------------------------------------------------
+| End of epoch  68 | valid loss 1.005 | valid bpc    1.450
+=========================================================================================
+| End of epoch  68 | test loss 0.977 | test bpc    1.409
+=========================================================================================
+| epoch  69 |   100/  514 batches | lr 4.00000 | ms/batch 27.12 | loss 1.040 | bpc 1.500
+| epoch  69 |   200/  514 batches | lr 4.00000 | ms/batch 26.93 | loss 1.029 | bpc 1.484
+| epoch  69 |   300/  514 batches | lr 4.00000 | ms/batch 26.87 | loss 1.030 | bpc 1.485
+| epoch  69 |   400/  514 batches | lr 4.00000 | ms/batch 26.86 | loss 1.016 | bpc 1.465
+| epoch  69 |   500/  514 batches | lr 4.00000 | ms/batch 26.81 | loss 1.023 | bpc 1.476
+-----------------------------------------------------------------------------------------
+| End of epoch  69 | valid loss 1.004 | valid bpc    1.449
+=========================================================================================
+| End of epoch  69 | test loss 0.976 | test bpc    1.409
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  70 |   100/  514 batches | lr 4.00000 | ms/batch 26.98 | loss 1.039 | bpc 1.498
+| epoch  70 |   200/  514 batches | lr 4.00000 | ms/batch 26.80 | loss 1.029 | bpc 1.484
+| epoch  70 |   300/  514 batches | lr 4.00000 | ms/batch 26.84 | loss 1.029 | bpc 1.484
+| epoch  70 |   400/  514 batches | lr 4.00000 | ms/batch 26.80 | loss 1.015 | bpc 1.464
+| epoch  70 |   500/  514 batches | lr 4.00000 | ms/batch 26.90 | loss 1.023 | bpc 1.476
+-----------------------------------------------------------------------------------------
+| End of epoch  70 | valid loss 1.004 | valid bpc    1.448
+=========================================================================================
+| End of epoch  70 | test loss 0.976 | test bpc    1.408
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  71 |   100/  514 batches | lr 4.00000 | ms/batch 27.20 | loss 1.039 | bpc 1.498
+| epoch  71 |   200/  514 batches | lr 4.00000 | ms/batch 26.87 | loss 1.028 | bpc 1.483
+| epoch  71 |   300/  514 batches | lr 4.00000 | ms/batch 26.90 | loss 1.029 | bpc 1.484
+| epoch  71 |   400/  514 batches | lr 4.00000 | ms/batch 26.79 | loss 1.014 | bpc 1.463
+| epoch  71 |   500/  514 batches | lr 4.00000 | ms/batch 26.87 | loss 1.023 | bpc 1.476
+-----------------------------------------------------------------------------------------
+| End of epoch  71 | valid loss 1.004 | valid bpc    1.448
+=========================================================================================
+| End of epoch  71 | test loss 0.976 | test bpc    1.408
+=========================================================================================
+| epoch  72 |   100/  514 batches | lr 4.00000 | ms/batch 27.19 | loss 1.038 | bpc 1.498
+| epoch  72 |   200/  514 batches | lr 4.00000 | ms/batch 26.82 | loss 1.027 | bpc 1.482
+| epoch  72 |   300/  514 batches | lr 4.00000 | ms/batch 26.88 | loss 1.028 | bpc 1.483
+| epoch  72 |   400/  514 batches | lr 4.00000 | ms/batch 26.82 | loss 1.014 | bpc 1.464
+| epoch  72 |   500/  514 batches | lr 4.00000 | ms/batch 26.86 | loss 1.023 | bpc 1.476
+-----------------------------------------------------------------------------------------
+| End of epoch  72 | valid loss 1.003 | valid bpc    1.447
+=========================================================================================
+| End of epoch  72 | test loss 0.976 | test bpc    1.407
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  73 |   100/  514 batches | lr 4.00000 | ms/batch 27.02 | loss 1.038 | bpc 1.498
+| epoch  73 |   200/  514 batches | lr 4.00000 | ms/batch 26.94 | loss 1.028 | bpc 1.483
+| epoch  73 |   300/  514 batches | lr 4.00000 | ms/batch 26.88 | loss 1.028 | bpc 1.483
+| epoch  73 |   400/  514 batches | lr 4.00000 | ms/batch 26.87 | loss 1.013 | bpc 1.462
+| epoch  73 |   500/  514 batches | lr 4.00000 | ms/batch 26.86 | loss 1.022 | bpc 1.475
+-----------------------------------------------------------------------------------------
+| End of epoch  73 | valid loss 1.003 | valid bpc    1.447
+=========================================================================================
+| End of epoch  73 | test loss 0.975 | test bpc    1.407
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  74 |   100/  514 batches | lr 4.00000 | ms/batch 27.06 | loss 1.038 | bpc 1.497
+| epoch  74 |   200/  514 batches | lr 4.00000 | ms/batch 26.84 | loss 1.027 | bpc 1.482
+| epoch  74 |   300/  514 batches | lr 4.00000 | ms/batch 26.88 | loss 1.027 | bpc 1.482
+| epoch  74 |   400/  514 batches | lr 4.00000 | ms/batch 26.87 | loss 1.013 | bpc 1.462
+| epoch  74 |   500/  514 batches | lr 4.00000 | ms/batch 26.82 | loss 1.022 | bpc 1.475
+-----------------------------------------------------------------------------------------
+| End of epoch  74 | valid loss 1.003 | valid bpc    1.448
+=========================================================================================
+| End of epoch  74 | test loss 0.976 | test bpc    1.408
+=========================================================================================
+| epoch  75 |   100/  514 batches | lr 4.00000 | ms/batch 27.11 | loss 1.037 | bpc 1.496
+| epoch  75 |   200/  514 batches | lr 4.00000 | ms/batch 26.81 | loss 1.027 | bpc 1.482
+| epoch  75 |   300/  514 batches | lr 4.00000 | ms/batch 26.73 | loss 1.027 | bpc 1.481
+| epoch  75 |   400/  514 batches | lr 4.00000 | ms/batch 26.81 | loss 1.013 | bpc 1.462
+| epoch  75 |   500/  514 batches | lr 4.00000 | ms/batch 26.92 | loss 1.021 | bpc 1.474
+-----------------------------------------------------------------------------------------
+| End of epoch  75 | valid loss 1.003 | valid bpc    1.446
+=========================================================================================
+| End of epoch  75 | test loss 0.975 | test bpc    1.407
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  76 |   100/  514 batches | lr 4.00000 | ms/batch 27.07 | loss 1.036 | bpc 1.495
+| epoch  76 |   200/  514 batches | lr 4.00000 | ms/batch 26.83 | loss 1.027 | bpc 1.482
+| epoch  76 |   300/  514 batches | lr 4.00000 | ms/batch 26.83 | loss 1.026 | bpc 1.481
+| epoch  76 |   400/  514 batches | lr 4.00000 | ms/batch 26.82 | loss 1.013 | bpc 1.461
+| epoch  76 |   500/  514 batches | lr 4.00000 | ms/batch 26.92 | loss 1.021 | bpc 1.472
+-----------------------------------------------------------------------------------------
+| End of epoch  76 | valid loss 1.003 | valid bpc    1.446
+=========================================================================================
+| End of epoch  76 | test loss 0.975 | test bpc    1.406
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  77 |   100/  514 batches | lr 4.00000 | ms/batch 27.01 | loss 1.036 | bpc 1.495
+| epoch  77 |   200/  514 batches | lr 4.00000 | ms/batch 26.80 | loss 1.026 | bpc 1.480
+| epoch  77 |   300/  514 batches | lr 4.00000 | ms/batch 26.92 | loss 1.026 | bpc 1.480
+| epoch  77 |   400/  514 batches | lr 4.00000 | ms/batch 26.96 | loss 1.012 | bpc 1.460
+| epoch  77 |   500/  514 batches | lr 4.00000 | ms/batch 26.90 | loss 1.020 | bpc 1.471
+-----------------------------------------------------------------------------------------
+| End of epoch  77 | valid loss 1.002 | valid bpc    1.446
+=========================================================================================
+| End of epoch  77 | test loss 0.975 | test bpc    1.406
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  78 |   100/  514 batches | lr 4.00000 | ms/batch 27.06 | loss 1.036 | bpc 1.494
+| epoch  78 |   200/  514 batches | lr 4.00000 | ms/batch 26.82 | loss 1.026 | bpc 1.480
+| epoch  78 |   300/  514 batches | lr 4.00000 | ms/batch 26.86 | loss 1.025 | bpc 1.479
+| epoch  78 |   400/  514 batches | lr 4.00000 | ms/batch 26.89 | loss 1.012 | bpc 1.461
+| epoch  78 |   500/  514 batches | lr 4.00000 | ms/batch 26.98 | loss 1.020 | bpc 1.471
+-----------------------------------------------------------------------------------------
+| End of epoch  78 | valid loss 1.002 | valid bpc    1.446
+=========================================================================================
+| End of epoch  78 | test loss 0.974 | test bpc    1.406
+=========================================================================================
+| epoch  79 |   100/  514 batches | lr 4.00000 | ms/batch 27.20 | loss 1.036 | bpc 1.495
+| epoch  79 |   200/  514 batches | lr 4.00000 | ms/batch 26.88 | loss 1.025 | bpc 1.479
+| epoch  79 |   300/  514 batches | lr 4.00000 | ms/batch 26.74 | loss 1.026 | bpc 1.480
+| epoch  79 |   400/  514 batches | lr 4.00000 | ms/batch 26.83 | loss 1.012 | bpc 1.459
+| epoch  79 |   500/  514 batches | lr 4.00000 | ms/batch 26.74 | loss 1.020 | bpc 1.471
+-----------------------------------------------------------------------------------------
+| End of epoch  79 | valid loss 1.001 | valid bpc    1.445
+=========================================================================================
+| End of epoch  79 | test loss 0.974 | test bpc    1.405
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  80 |   100/  514 batches | lr 4.00000 | ms/batch 27.17 | loss 1.035 | bpc 1.493
+| epoch  80 |   200/  514 batches | lr 4.00000 | ms/batch 26.89 | loss 1.025 | bpc 1.478
+| epoch  80 |   300/  514 batches | lr 4.00000 | ms/batch 26.83 | loss 1.025 | bpc 1.479
+| epoch  80 |   400/  514 batches | lr 4.00000 | ms/batch 26.91 | loss 1.011 | bpc 1.459
+| epoch  80 |   500/  514 batches | lr 4.00000 | ms/batch 26.87 | loss 1.019 | bpc 1.471
+-----------------------------------------------------------------------------------------
+| End of epoch  80 | valid loss 1.002 | valid bpc    1.445
+=========================================================================================
+| End of epoch  80 | test loss 0.974 | test bpc    1.405
+=========================================================================================
+| epoch  81 |   100/  514 batches | lr 4.00000 | ms/batch 27.06 | loss 1.034 | bpc 1.492
+| epoch  81 |   200/  514 batches | lr 4.00000 | ms/batch 26.84 | loss 1.024 | bpc 1.478
+| epoch  81 |   300/  514 batches | lr 4.00000 | ms/batch 26.79 | loss 1.025 | bpc 1.479
+| epoch  81 |   400/  514 batches | lr 4.00000 | ms/batch 26.88 | loss 1.010 | bpc 1.458
+| epoch  81 |   500/  514 batches | lr 4.00000 | ms/batch 26.84 | loss 1.019 | bpc 1.470
+-----------------------------------------------------------------------------------------
+| End of epoch  81 | valid loss 1.002 | valid bpc    1.446
+=========================================================================================
+| End of epoch  81 | test loss 0.974 | test bpc    1.405
+=========================================================================================
+| epoch  82 |   100/  514 batches | lr 4.00000 | ms/batch 27.06 | loss 1.034 | bpc 1.492
+| epoch  82 |   200/  514 batches | lr 4.00000 | ms/batch 26.87 | loss 1.024 | bpc 1.477
+| epoch  82 |   300/  514 batches | lr 4.00000 | ms/batch 26.93 | loss 1.024 | bpc 1.477
+| epoch  82 |   400/  514 batches | lr 4.00000 | ms/batch 26.90 | loss 1.010 | bpc 1.458
+| epoch  82 |   500/  514 batches | lr 4.00000 | ms/batch 26.93 | loss 1.019 | bpc 1.469
+-----------------------------------------------------------------------------------------
+| End of epoch  82 | valid loss 1.001 | valid bpc    1.444
+=========================================================================================
+| End of epoch  82 | test loss 0.973 | test bpc    1.404
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  83 |   100/  514 batches | lr 4.00000 | ms/batch 27.13 | loss 1.034 | bpc 1.491
+| epoch  83 |   200/  514 batches | lr 4.00000 | ms/batch 26.88 | loss 1.024 | bpc 1.477
+| epoch  83 |   300/  514 batches | lr 4.00000 | ms/batch 26.91 | loss 1.024 | bpc 1.477
+| epoch  83 |   400/  514 batches | lr 4.00000 | ms/batch 26.91 | loss 1.010 | bpc 1.457
+| epoch  83 |   500/  514 batches | lr 4.00000 | ms/batch 26.82 | loss 1.019 | bpc 1.470
+-----------------------------------------------------------------------------------------
+| End of epoch  83 | valid loss 1.001 | valid bpc    1.444
+=========================================================================================
+| End of epoch  83 | test loss 0.973 | test bpc    1.404
+=========================================================================================
+| epoch  84 |   100/  514 batches | lr 4.00000 | ms/batch 27.08 | loss 1.035 | bpc 1.493
+| epoch  84 |   200/  514 batches | lr 4.00000 | ms/batch 26.81 | loss 1.023 | bpc 1.477
+| epoch  84 |   300/  514 batches | lr 4.00000 | ms/batch 26.95 | loss 1.023 | bpc 1.476
+| epoch  84 |   400/  514 batches | lr 4.00000 | ms/batch 26.92 | loss 1.010 | bpc 1.458
+| epoch  84 |   500/  514 batches | lr 4.00000 | ms/batch 26.85 | loss 1.018 | bpc 1.469
+-----------------------------------------------------------------------------------------
+| End of epoch  84 | valid loss 1.000 | valid bpc    1.443
+=========================================================================================
+| End of epoch  84 | test loss 0.973 | test bpc    1.404
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  85 |   100/  514 batches | lr 4.00000 | ms/batch 27.04 | loss 1.033 | bpc 1.491
+| epoch  85 |   200/  514 batches | lr 4.00000 | ms/batch 26.84 | loss 1.023 | bpc 1.476
+| epoch  85 |   300/  514 batches | lr 4.00000 | ms/batch 26.79 | loss 1.024 | bpc 1.477
+| epoch  85 |   400/  514 batches | lr 4.00000 | ms/batch 26.89 | loss 1.010 | bpc 1.457
+| epoch  85 |   500/  514 batches | lr 4.00000 | ms/batch 26.85 | loss 1.018 | bpc 1.469
+-----------------------------------------------------------------------------------------
+| End of epoch  85 | valid loss 1.000 | valid bpc    1.443
+=========================================================================================
+| End of epoch  85 | test loss 0.973 | test bpc    1.404
+=========================================================================================
+| epoch  86 |   100/  514 batches | lr 4.00000 | ms/batch 27.26 | loss 1.033 | bpc 1.491
+| epoch  86 |   200/  514 batches | lr 4.00000 | ms/batch 26.86 | loss 1.024 | bpc 1.477
+| epoch  86 |   300/  514 batches | lr 4.00000 | ms/batch 26.87 | loss 1.023 | bpc 1.476
+| epoch  86 |   400/  514 batches | lr 4.00000 | ms/batch 26.92 | loss 1.009 | bpc 1.456
+| epoch  86 |   500/  514 batches | lr 4.00000 | ms/batch 26.82 | loss 1.018 | bpc 1.468
+-----------------------------------------------------------------------------------------
+| End of epoch  86 | valid loss 1.000 | valid bpc    1.442
+=========================================================================================
+| End of epoch  86 | test loss 0.972 | test bpc    1.403
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  87 |   100/  514 batches | lr 4.00000 | ms/batch 27.09 | loss 1.032 | bpc 1.489
+| epoch  87 |   200/  514 batches | lr 4.00000 | ms/batch 26.90 | loss 1.022 | bpc 1.475
+| epoch  87 |   300/  514 batches | lr 4.00000 | ms/batch 26.96 | loss 1.022 | bpc 1.475
+| epoch  87 |   400/  514 batches | lr 4.00000 | ms/batch 26.97 | loss 1.009 | bpc 1.456
+| epoch  87 |   500/  514 batches | lr 4.00000 | ms/batch 26.81 | loss 1.018 | bpc 1.468
+-----------------------------------------------------------------------------------------
+| End of epoch  87 | valid loss 0.999 | valid bpc    1.442
+=========================================================================================
+| End of epoch  87 | test loss 0.972 | test bpc    1.402
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  88 |   100/  514 batches | lr 4.00000 | ms/batch 26.99 | loss 1.033 | bpc 1.490
+| epoch  88 |   200/  514 batches | lr 4.00000 | ms/batch 26.80 | loss 1.022 | bpc 1.475
+| epoch  88 |   300/  514 batches | lr 4.00000 | ms/batch 26.85 | loss 1.023 | bpc 1.476
+| epoch  88 |   400/  514 batches | lr 4.00000 | ms/batch 26.79 | loss 1.009 | bpc 1.455
+| epoch  88 |   500/  514 batches | lr 4.00000 | ms/batch 26.94 | loss 1.017 | bpc 1.467
+-----------------------------------------------------------------------------------------
+| End of epoch  88 | valid loss 1.000 | valid bpc    1.442
+=========================================================================================
+| End of epoch  88 | test loss 0.972 | test bpc    1.403
+=========================================================================================
+| epoch  89 |   100/  514 batches | lr 4.00000 | ms/batch 27.02 | loss 1.032 | bpc 1.489
+| epoch  89 |   200/  514 batches | lr 4.00000 | ms/batch 26.73 | loss 1.022 | bpc 1.474
+| epoch  89 |   300/  514 batches | lr 4.00000 | ms/batch 26.85 | loss 1.022 | bpc 1.475
+| epoch  89 |   400/  514 batches | lr 4.00000 | ms/batch 26.78 | loss 1.008 | bpc 1.455
+| epoch  89 |   500/  514 batches | lr 4.00000 | ms/batch 26.74 | loss 1.017 | bpc 1.467
+-----------------------------------------------------------------------------------------
+| End of epoch  89 | valid loss 1.000 | valid bpc    1.442
+=========================================================================================
+| End of epoch  89 | test loss 0.972 | test bpc    1.402
+=========================================================================================
+| epoch  90 |   100/  514 batches | lr 4.00000 | ms/batch 27.07 | loss 1.032 | bpc 1.489
+| epoch  90 |   200/  514 batches | lr 4.00000 | ms/batch 26.88 | loss 1.022 | bpc 1.475
+| epoch  90 |   300/  514 batches | lr 4.00000 | ms/batch 26.84 | loss 1.022 | bpc 1.475
+| epoch  90 |   400/  514 batches | lr 4.00000 | ms/batch 26.92 | loss 1.008 | bpc 1.455
+| epoch  90 |   500/  514 batches | lr 4.00000 | ms/batch 26.91 | loss 1.017 | bpc 1.467
+-----------------------------------------------------------------------------------------
+| End of epoch  90 | valid loss 0.999 | valid bpc    1.441
+=========================================================================================
+| End of epoch  90 | test loss 0.972 | test bpc    1.402
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  91 |   100/  514 batches | lr 4.00000 | ms/batch 27.08 | loss 1.031 | bpc 1.487
+| epoch  91 |   200/  514 batches | lr 4.00000 | ms/batch 26.84 | loss 1.022 | bpc 1.474
+| epoch  91 |   300/  514 batches | lr 4.00000 | ms/batch 26.84 | loss 1.021 | bpc 1.473
+| epoch  91 |   400/  514 batches | lr 4.00000 | ms/batch 26.75 | loss 1.008 | bpc 1.454
+| epoch  91 |   500/  514 batches | lr 4.00000 | ms/batch 26.92 | loss 1.016 | bpc 1.465
+-----------------------------------------------------------------------------------------
+| End of epoch  91 | valid loss 0.999 | valid bpc    1.441
+=========================================================================================
+| End of epoch  91 | test loss 0.972 | test bpc    1.402
+=========================================================================================
+| epoch  92 |   100/  514 batches | lr 4.00000 | ms/batch 26.99 | loss 1.031 | bpc 1.488
+| epoch  92 |   200/  514 batches | lr 4.00000 | ms/batch 26.81 | loss 1.021 | bpc 1.473
+| epoch  92 |   300/  514 batches | lr 4.00000 | ms/batch 26.73 | loss 1.021 | bpc 1.473
+| epoch  92 |   400/  514 batches | lr 4.00000 | ms/batch 26.83 | loss 1.007 | bpc 1.453
+| epoch  92 |   500/  514 batches | lr 4.00000 | ms/batch 26.84 | loss 1.015 | bpc 1.465
+-----------------------------------------------------------------------------------------
+| End of epoch  92 | valid loss 0.999 | valid bpc    1.442
+=========================================================================================
+| End of epoch  92 | test loss 0.971 | test bpc    1.401
+=========================================================================================
+| epoch  93 |   100/  514 batches | lr 4.00000 | ms/batch 27.14 | loss 1.031 | bpc 1.488
+| epoch  93 |   200/  514 batches | lr 4.00000 | ms/batch 26.93 | loss 1.021 | bpc 1.473
+| epoch  93 |   300/  514 batches | lr 4.00000 | ms/batch 26.85 | loss 1.022 | bpc 1.474
+| epoch  93 |   400/  514 batches | lr 4.00000 | ms/batch 26.76 | loss 1.007 | bpc 1.453
+| epoch  93 |   500/  514 batches | lr 4.00000 | ms/batch 26.70 | loss 1.015 | bpc 1.465
+-----------------------------------------------------------------------------------------
+| End of epoch  93 | valid loss 0.998 | valid bpc    1.440
+=========================================================================================
+| End of epoch  93 | test loss 0.971 | test bpc    1.400
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  94 |   100/  514 batches | lr 4.00000 | ms/batch 27.01 | loss 1.031 | bpc 1.488
+| epoch  94 |   200/  514 batches | lr 4.00000 | ms/batch 26.79 | loss 1.020 | bpc 1.471
+| epoch  94 |   300/  514 batches | lr 4.00000 | ms/batch 26.72 | loss 1.021 | bpc 1.472
+| epoch  94 |   400/  514 batches | lr 4.00000 | ms/batch 26.74 | loss 1.007 | bpc 1.453
+| epoch  94 |   500/  514 batches | lr 4.00000 | ms/batch 26.73 | loss 1.015 | bpc 1.465
+-----------------------------------------------------------------------------------------
+| End of epoch  94 | valid loss 0.999 | valid bpc    1.442
+=========================================================================================
+| End of epoch  94 | test loss 0.971 | test bpc    1.401
+=========================================================================================
+| epoch  95 |   100/  514 batches | lr 4.00000 | ms/batch 27.00 | loss 1.030 | bpc 1.486
+| epoch  95 |   200/  514 batches | lr 4.00000 | ms/batch 26.85 | loss 1.020 | bpc 1.471
+| epoch  95 |   300/  514 batches | lr 4.00000 | ms/batch 26.93 | loss 1.021 | bpc 1.472
+| epoch  95 |   400/  514 batches | lr 4.00000 | ms/batch 26.81 | loss 1.007 | bpc 1.453
+| epoch  95 |   500/  514 batches | lr 4.00000 | ms/batch 26.85 | loss 1.015 | bpc 1.464
+-----------------------------------------------------------------------------------------
+| End of epoch  95 | valid loss 0.998 | valid bpc    1.440
+=========================================================================================
+| End of epoch  95 | test loss 0.970 | test bpc    1.400
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  96 |   100/  514 batches | lr 4.00000 | ms/batch 27.04 | loss 1.030 | bpc 1.486
+| epoch  96 |   200/  514 batches | lr 4.00000 | ms/batch 26.82 | loss 1.021 | bpc 1.473
+| epoch  96 |   300/  514 batches | lr 4.00000 | ms/batch 26.81 | loss 1.020 | bpc 1.472
+| epoch  96 |   400/  514 batches | lr 4.00000 | ms/batch 26.69 | loss 1.007 | bpc 1.452
+| epoch  96 |   500/  514 batches | lr 4.00000 | ms/batch 26.75 | loss 1.015 | bpc 1.464
+-----------------------------------------------------------------------------------------
+| End of epoch  96 | valid loss 0.999 | valid bpc    1.442
+=========================================================================================
+| End of epoch  96 | test loss 0.972 | test bpc    1.402
+=========================================================================================
+| epoch  97 |   100/  514 batches | lr 0.40000 | ms/batch 27.04 | loss 1.032 | bpc 1.490
+| epoch  97 |   200/  514 batches | lr 0.40000 | ms/batch 26.68 | loss 1.019 | bpc 1.470
+| epoch  97 |   300/  514 batches | lr 0.40000 | ms/batch 26.74 | loss 1.015 | bpc 1.464
+| epoch  97 |   400/  514 batches | lr 0.40000 | ms/batch 26.73 | loss 0.998 | bpc 1.440
+| epoch  97 |   500/  514 batches | lr 0.40000 | ms/batch 26.77 | loss 1.002 | bpc 1.446
+-----------------------------------------------------------------------------------------
+| End of epoch  97 | valid loss 0.993 | valid bpc    1.433
+=========================================================================================
+| End of epoch  97 | test loss 0.966 | test bpc    1.394
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  98 |   100/  514 batches | lr 0.40000 | ms/batch 26.90 | loss 1.026 | bpc 1.481
+| epoch  98 |   200/  514 batches | lr 0.40000 | ms/batch 26.75 | loss 1.015 | bpc 1.464
+| epoch  98 |   300/  514 batches | lr 0.40000 | ms/batch 26.85 | loss 1.013 | bpc 1.461
+| epoch  98 |   400/  514 batches | lr 0.40000 | ms/batch 26.86 | loss 0.997 | bpc 1.438
+| epoch  98 |   500/  514 batches | lr 0.40000 | ms/batch 26.69 | loss 1.002 | bpc 1.446
+-----------------------------------------------------------------------------------------
+| End of epoch  98 | valid loss 0.992 | valid bpc    1.432
+=========================================================================================
+| End of epoch  98 | test loss 0.965 | test bpc    1.393
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch  99 |   100/  514 batches | lr 0.40000 | ms/batch 27.00 | loss 1.025 | bpc 1.479
+| epoch  99 |   200/  514 batches | lr 0.40000 | ms/batch 26.73 | loss 1.013 | bpc 1.461
+| epoch  99 |   300/  514 batches | lr 0.40000 | ms/batch 26.72 | loss 1.012 | bpc 1.460
+| epoch  99 |   400/  514 batches | lr 0.40000 | ms/batch 26.86 | loss 0.996 | bpc 1.436
+| epoch  99 |   500/  514 batches | lr 0.40000 | ms/batch 26.90 | loss 1.001 | bpc 1.445
+-----------------------------------------------------------------------------------------
+| End of epoch  99 | valid loss 0.992 | valid bpc    1.431
+=========================================================================================
+| End of epoch  99 | test loss 0.965 | test bpc    1.392
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+| epoch 100 |   100/  514 batches | lr 0.40000 | ms/batch 26.99 | loss 1.024 | bpc 1.477
+| epoch 100 |   200/  514 batches | lr 0.40000 | ms/batch 26.78 | loss 1.013 | bpc 1.461
+| epoch 100 |   300/  514 batches | lr 0.40000 | ms/batch 26.73 | loss 1.011 | bpc 1.459
+| epoch 100 |   400/  514 batches | lr 0.40000 | ms/batch 26.79 | loss 0.996 | bpc 1.437
+| epoch 100 |   500/  514 batches | lr 0.40000 | ms/batch 26.90 | loss 1.001 | bpc 1.445
+-----------------------------------------------------------------------------------------
+| End of epoch 100 | valid loss 0.991 | valid bpc    1.430
+=========================================================================================
+| End of epoch 100 | test loss 0.964 | test bpc    1.391
+=========================================================================================
+Saving...
+Saved as drive/MyDrive/CRN_char_cnn/model.pt
+=========================================================================================
+| End of training | test loss 0.964 | test bpc    1.391
+=========================================================================================
