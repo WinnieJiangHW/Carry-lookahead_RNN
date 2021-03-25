@@ -4,9 +4,9 @@ import torch.nn as nn
 from torch.autograd import Variable
 import torch.optim as optim
 import sys
-sys.path.append("../../")
-from CRN.poly_music.model import CRN
-from CRN.poly_music.utils import data_generator
+sys.path.append("../")
+from model import CRN
+from utils import data_generator
 import numpy as np
 
 
@@ -136,4 +136,3 @@ if __name__ == "__main__":
     print('-' * 89)
     model = torch.load(open(model_name, "rb"))
     tloss = evaluate(X_test)
-

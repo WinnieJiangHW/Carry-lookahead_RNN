@@ -1,10 +1,8 @@
 import argparse
 import torch.nn as nn
 import torch.optim as optim
-import sys
-sys.path.append("../../")
-from CRN.char_cnn.utils import *
-from CRN.char_cnn.model import CRN
+from utils import *
+from model import CRN
 import time
 import math
 
@@ -46,7 +44,7 @@ parser.add_argument('--seq_len', type=int, default=400,
                     help='total sequence length, including effective history (default: 400)')
 parser.add_argument('--seed', type=int, default=1111,
                     help='random seed (default: 1111)')
-parser.add_argument('--dataset', type=str, default='text8',
+parser.add_argument('--dataset', type=str, default='ptb',
                     help='dataset to use (default: ptb)')
 args = parser.parse_args()
 

@@ -6,7 +6,7 @@ import numpy as np
 def data_generator(dataset):
     if dataset == "JSB":
         print('loading JSB data...')
-        data = loadmat('../../TCN/poly_music/mdata/JSB_Chorales.mat')
+        data = loadmat('./mdata/JSB_Chorales.mat')
     elif dataset == "Muse":
         print('loading Muse data...')
         data = loadmat('./mdata/MuseData.mat')

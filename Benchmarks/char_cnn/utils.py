@@ -11,7 +11,7 @@ cuda = torch.cuda.is_available()
 
 
 def data_generator(args):
-    file, testfile, valfile = getattr(observations, args.dataset)('../../TCN/char_cnn/data/')
+    file, testfile, valfile = getattr(observations, args.dataset)('path to data')
     file_len = len(file)
     valfile_len = len(valfile)
     testfile_len = len(testfile)
@@ -95,5 +95,3 @@ def save(model):
     save_filename = 'model.pt'
     torch.save(model, save_filename)
     print('Saved as %s' % save_filename)
-
-
