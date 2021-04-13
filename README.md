@@ -7,7 +7,7 @@ We performed an ablation experiment on Sequential MNIST and comparative experime
 
 ### Repository Structure
 
-The repository consists of experiment code, results and trained models.
+The repository consists of experiment code, results and pre-trained models.
 
 The code is in the [Benchmarks](https://github.com/WinnieJiangHW/TCN_VRN/tree/main/Benchmarks) directory and contains the benchmarks to the following tasks:
 
@@ -19,12 +19,12 @@ The code is in the [Benchmarks](https://github.com/WinnieJiangHW/TCN_VRN/tree/ma
 
 > The default model in poly_music and char_cnn is TCN-VRN (model proposed in the paper), and other comparison models are respectively placed in [Test_results](https://github.com/WinnieJiangHW/TCN_VRN/tree/main/Test_results) directory.
 
-There are also **experiment results** and **trained models** placed in [Test_results](https://github.com/WinnieJiangHW/TCN_VRN/tree/main/Test_results) directory.
+There are also **experiment results** and **pre-trained models** placed in [Test_results](https://github.com/WinnieJiangHW/TCN_VRN/tree/main/Test_results) directory.
 
 ### Runtime Environment
 
 1. The code should be directly runnable with PyTorch v1.0.0 or above.
-2. We train the models with PyTorch v1.7.1 and the trained models can’t be load with PyTorch v1.8 or above.
+2. We train the models with PyTorch v1.7.1 and the pre-trained models can’t be load with PyTorch v1.8 or above.
 
 ### Acknowledgements
 
