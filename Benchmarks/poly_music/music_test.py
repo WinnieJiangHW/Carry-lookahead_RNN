@@ -5,7 +5,7 @@ from torch.autograd import Variable
 import torch.optim as optim
 import sys
 sys.path.append("../")
-from model import CRN
+from model import TCN_VRN
 from utils import data_generator
 import numpy as np
 
@@ -52,7 +52,7 @@ n_channels = [args.nhid] * args.levels
 kernel_size = args.ksize
 dropout = args.dropout
 
-model = CRN(input_size, input_size, n_channels, kernel_size, dropout=args.dropout)
+model = TCN_VRN(input_size, input_size, n_channels, kernel_size, dropout=args.dropout)
 
 if args.cuda:
     model.cuda()

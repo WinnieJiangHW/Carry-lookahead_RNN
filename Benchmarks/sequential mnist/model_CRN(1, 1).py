@@ -5,9 +5,9 @@ sys.path.append("../")
 from tcn import TemporalConvNet
 
 
-class CRN(t.nn.Module):
+class TCN_VRN(t.nn.Module):
     def __init__(self, input_size, output_size, num_channels, kernel_size, dropout):
-        super(CRN, self).__init__()
+        super(TCN_VRN, self).__init__()
         self.tcn = TemporalConvNet(input_size, num_channels, kernel_size=kernel_size, dropout=dropout)
         self.cell = t.nn.RNNCell(input_size=1, hidden_size=1)
         self.linear = t.nn.Linear(784, output_size)
