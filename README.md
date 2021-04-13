@@ -17,9 +17,9 @@ The code is in the [Benchmarks](https://github.com/WinnieJiangHW/TCN_VRN/tree/ma
 - **PennTreebank**: char-level language model
 - **text8**: char-level language model
 
-> The default model in poly_music and char_cnn is TCN-VRN (model proposed in the paper), and other comparison models are respectively placed in [Test result](https://github.com/WinnieJiangHW/TCN_VRN/tree/main/Test result) directory.
+> The default model in poly_music and char_cnn is TCN-VRN (model proposed in the paper), and other comparison models are respectively placed in [Test_results](https://github.com/WinnieJiangHW/TCN_VRN/tree/main/Test_results) directory.
 
-There are also **experiment results** and **trained models** placed in [Test result](https://github.com/WinnieJiangHW/TCN_VRN/tree/main/Test result) directory.
+There are also **experiment results** and **trained models** placed in [Test_results](https://github.com/WinnieJiangHW/TCN_VRN/tree/main/Test_results) directory.
 
 ### Runtime Environment
 
