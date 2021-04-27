@@ -2,7 +2,7 @@ import argparse
 import torch.nn as nn
 import torch.optim as optim
 from utils import *
-from model import TCN_VRN
+from model import CL_RNN
 import time
 import math
 
@@ -69,7 +69,7 @@ num_chans = [args.nhid] * (args.levels - 1) + [args.emsize]
 k_size = args.ksize
 dropout = args.dropout
 emb_dropout = args.emb_dropout
-model = TCN_VRN(args.emsize, n_characters, num_chans, kernel_size=k_size, dropout=dropout, emb_dropout=emb_dropout)
+model = CL_RNN(args.emsize, n_characters, num_chans, kernel_size=k_size, dropout=dropout, emb_dropout=emb_dropout)
 
 
 if args.cuda:

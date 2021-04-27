@@ -3,7 +3,7 @@ import torch.nn.functional as F
 import sys
 sys.path.append("../")
 from utils import data_generator
-from model import TCN_VRN
+from model import CL_RNN
 import os
 
 if t.cuda.is_available():
@@ -23,7 +23,7 @@ steps = 0
 train_loader, test_loader = data_generator(root, batch_size)
 channel_sizes = [1] * 8
 kernel_size = 7
-model = TCN_VRN(input_channels, n_classes, channel_sizes, kernel_size=kernel_size, dropout=0.05).to(device=device)
+model = CL_RNN(input_channels, n_classes, channel_sizes, kernel_size=kernel_size, dropout=0.05).to(device=device)
 load = 0
 if os.path.exists('checkpoint.pt'):
     model.load_state_dict(t.load('checkpoint.pt'))

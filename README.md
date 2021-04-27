@@ -1,9 +1,8 @@
-##  Sequence Modeling Tests on TCN-based Variable Residual Network (TCN-VRN)
+##  Sequence Modeling Tests on Carry-lookahead RNN (CL-RNN)
 
-This repository contains the experiments done in the work ***Recurrent Neural Network from Adder’s Perspective:
-Variable Residual Network based on TCN*** by Haowei Jiang and Feiwei Qin.
+This repository contains the experiments done in the work ***Recurrent Neural Network from Adder’s Perspective: Carry-lookahead RNN*** by Haowei Jiang and Feiwei Qin.
 
-We performed an ablation experiment on Sequential MNIST and comparative experiments on music and language modeling. According to the results, we verify the effectiveness of TCN-VRN.
+We performed an ablation experiment on Sequential MNIST and comparative experiments on music and language modeling. According to the results, we verify the effectiveness of CL-RNN.
 
 ### Repository Structure
 
@@ -17,7 +16,7 @@ The code is in the [Benchmarks](https://github.com/WinnieJiangHW/TCN_VRN/tree/ma
 - **PennTreebank**: char-level language model
 - **text8**: char-level language model
 
-> The default model in poly_music and char_cnn is TCN-VRN (model proposed in the paper), and other comparison models are respectively placed in [Test_results](https://github.com/WinnieJiangHW/TCN_VRN/tree/main/Test_results) directory.
+> The default model in poly_music and char_cnn is CL-RNN (model proposed in the paper), and other comparison models are respectively placed in [Test_results](https://github.com/WinnieJiangHW/TCN_VRN/tree/main/Test_results) directory.
 
 There are also **experiment results** and **pre-trained models** placed in [Test_results](https://github.com/WinnieJiangHW/TCN_VRN/tree/main/Test_results) directory.
 

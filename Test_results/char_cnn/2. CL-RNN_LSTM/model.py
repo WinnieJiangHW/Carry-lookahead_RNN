@@ -5,9 +5,9 @@ from tcn import TemporalConvNet
 import torch as t
 
 
-class TCN_VRN_LSTM(nn.Module):
+class CL_RNN_LSTM(nn.Module):
     def __init__(self, input_size, output_size, num_channels, kernel_size=2, dropout=0.2, emb_dropout=0.2):
-        super(TCN_VRN_LSTM, self).__init__()
+        super(CL_RNN_LSTM, self).__init__()
         self.encoder = nn.Embedding(output_size, input_size)
         self.tcn = TemporalConvNet(input_size, num_channels, kernel_size=kernel_size, dropout=dropout)
         self.cell = nn.RNNCell(input_size=input_size, hidden_size=input_size)

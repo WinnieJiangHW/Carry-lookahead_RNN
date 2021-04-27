@@ -5,9 +5,9 @@ from tcn import TemporalConvNet
 import torch.nn.functional as F
 
 
-class TCN_VRN(nn.Module):
+class CL_RNN(nn.Module):
     def __init__(self, input_size, output_size, num_channels, kernel_size, dropout):
-        super(TCN_VRN, self).__init__()
+        super(CL_RNN, self).__init__()
         self.tcn = TemporalConvNet(input_size, num_channels, kernel_size, dropout=dropout)
         self.cell = nn.RNNCell(input_size, num_channels[-1])
         self.linear = nn.Linear(num_channels[-1], output_size)
